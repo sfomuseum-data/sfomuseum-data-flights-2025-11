@@ -2,10 +2,12 @@
   "id": 1997552159,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-01",
+    "date:cessation_upper": "2025-11-01",
     "date:inception_lower": "2025-11-01",
     "date:inception_upper": "2025-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-01",
+    "edtf:cessation": "2025-11-01T20:46:27Z",
+    "edtf:inception": "2025-11-01T01:55:58-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:base_flight_id": "20251101-D-ANZ-4720",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CFSCY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114791553",
+      "swim:gufi": "KO44850700"
+    },
     "wof:country": "US",
     "wof:created": 1762099772,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1997552159,
     "wof:involves": [
-      102555091,
       102527513,
       1159283597,
       1947304627,
-      1159283697
+      1159283697,
+      1528104575,
+      102555091
     ],
-    "wof:lastmodified": 1762099772,
+    "wof:lastmodified": 1762100168,
     "wof:name": "AC738 (SFO-YYZ)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",

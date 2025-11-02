@@ -2,10 +2,12 @@
   "id": 1997549435,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-01",
-    "date:inception_upper": "2025-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-01",
+    "date:cessation_lower": "2025-11-01",
+    "date:cessation_upper": "2025-11-01",
+    "date:inception_lower": "2025-11-02",
+    "date:inception_upper": "2025-11-02",
+    "edtf:cessation": "2025-11-01T15:25:39-07:00",
+    "edtf:inception": "2025-11-02T03:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251101-A-AMX-4313",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N350NA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KU08461100"
+    },
     "wof:country": "US",
     "wof:created": 1762099463,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997549435,
     "wof:involves": [
+      1159292085,
       102527513,
       102527363,
       1159284261,
       1947304673,
       1159283539
     ],
-    "wof:lastmodified": 1762099463,
+    "wof:lastmodified": 1762100157,
     "wof:name": "DL2762 (SLC-SFO)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",

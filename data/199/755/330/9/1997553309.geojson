@@ -2,10 +2,12 @@
   "id": 1997553309,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-01",
-    "date:inception_upper": "2025-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-01",
+    "date:cessation_lower": "2025-11-02",
+    "date:cessation_upper": "2025-11-02",
+    "date:inception_lower": "2025-11-02",
+    "date:inception_upper": "2025-11-02",
+    "edtf:cessation": "2025-11-02T11:07:00Z",
+    "edtf:inception": "2025-11-02T06:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20251101-D-AMX-4305",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N709TW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO18063100"
+    },
     "wof:country": "US",
     "wof:created": 1762099901,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997553309,
     "wof:involves": [
+      1763588251,
+      1159283539,
+      1159289939,
       102534365,
       102527513,
-      1159284261,
-      1763588251,
-      1159283539
+      1159284261
     ],
-    "wof:lastmodified": 1762099901,
+    "wof:lastmodified": 1762100170,
     "wof:name": "DL319 (SFO-JFK)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

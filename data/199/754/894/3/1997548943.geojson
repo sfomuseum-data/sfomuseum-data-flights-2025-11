@@ -2,10 +2,12 @@
   "id": 1997548943,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-01",
+    "date:cessation_upper": "2025-11-01",
     "date:inception_lower": "2025-11-01",
     "date:inception_upper": "2025-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-01",
+    "edtf:cessation": "2025-11-01T15:00:45-07:00",
+    "edtf:inception": "2025-11-01T00:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-11-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530559,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N924AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114752542"
+    },
     "wof:country": "US",
     "wof:created": 1762099406,
     "wof:geomhash": "f5805f1be1c56ce2a2965880e252c65f",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1997548943,
     "wof:involves": [
+      1528104577,
       102527513,
       102530559,
       1159283813,
       1947304293
     ],
-    "wof:lastmodified": 1762099406,
+    "wof:lastmodified": 1762100156,
     "wof:name": "AS9723 (SMF-SFO)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",
