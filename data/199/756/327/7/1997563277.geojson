@@ -2,10 +2,12 @@
   "id": 1997563277,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-02",
+    "date:cessation_upper": "2025-11-02",
     "date:inception_lower": "2025-11-02",
     "date:inception_upper": "2025-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-02",
+    "edtf:cessation": "2025-11-02T18:37:00Z",
+    "edtf:inception": "2025-11-02T17:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20251102-D-ACA-4162",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N895UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114869559",
+      "swim:gufi": "KO58625100"
+    },
     "wof:country": "US",
     "wof:created": 1762186542,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304609,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1762186542,
+    "wof:lastmodified": 1762186658,
     "wof:name": "UA2437 (SFO-SLC)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

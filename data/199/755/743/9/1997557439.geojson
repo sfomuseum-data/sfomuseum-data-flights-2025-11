@@ -2,10 +2,12 @@
   "id": 1997557439,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-02",
+    "date:cessation_upper": "2025-11-02",
     "date:inception_lower": "2025-11-02",
     "date:inception_upper": "2025-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-02",
+    "edtf:cessation": "2025-11-02T08:03:00Z",
+    "edtf:inception": "2025-11-02T04:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534155,
@@ -35,6 +39,10 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114840311",
+      "swim:gufi": "KI07861100"
+    },
     "wof:country": "US",
     "wof:created": 1762185879,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -46,12 +54,12 @@
     ],
     "wof:id": 1997557439,
     "wof:involves": [
-      102527513,
       102534155,
       1159284261,
-      -1
+      1159289939,
+      102527513
     ],
-    "wof:lastmodified": 1762185879,
+    "wof:lastmodified": 1762186660,
     "wof:name": "DL8926 (IND-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

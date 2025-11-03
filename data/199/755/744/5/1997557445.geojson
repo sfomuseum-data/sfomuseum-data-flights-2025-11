@@ -2,10 +2,12 @@
   "id": 1997557445,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-02",
+    "date:cessation_upper": "2025-11-02",
     "date:inception_lower": "2025-11-02",
     "date:inception_upper": "2025-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-02",
+    "edtf:cessation": "2025-11-02T01:49:10-08:00",
+    "edtf:inception": "2025-11-02T16:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251102-A-KAL-6746",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N321NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114860927",
+      "swim:gufi": "KU51062102"
+    },
     "wof:country": "US",
     "wof:created": 1762185879,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997557445,
     "wof:involves": [
+      1159289407,
       102527513,
       102527363,
       1159284261,
       1947304675,
       1159284625
     ],
-    "wof:lastmodified": 1762185879,
+    "wof:lastmodified": 1762186660,
     "wof:name": "DL920 (SLC-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

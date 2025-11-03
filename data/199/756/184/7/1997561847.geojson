@@ -2,10 +2,12 @@
   "id": 1997561847,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-02",
     "date:inception_upper": "2025-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-02",
+    "edtf:cessation": "2025-11-03T01:24:00Z",
+    "edtf:inception": "2025-11-02T08:12:56-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N720FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO79933100"
+    },
     "wof:country": "US",
     "wof:created": 1762186380,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -86,9 +98,10 @@
       102528997,
       102527513,
       1159284401,
-      1947304095
+      1947304095,
+      1159289411
     ],
-    "wof:lastmodified": 1762186380,
+    "wof:lastmodified": 1762186648,
     "wof:name": "F94306 (SFO-SAN)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

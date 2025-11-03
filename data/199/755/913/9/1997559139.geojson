@@ -2,10 +2,12 @@
   "id": 1997559139,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-02",
-    "date:inception_upper": "2025-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-02",
+    "date:cessation_lower": "2025-11-02",
+    "date:cessation_upper": "2025-11-02",
+    "date:inception_lower": "2025-11-03",
+    "date:inception_upper": "2025-11-03",
+    "edtf:cessation": "2025-11-02T14:20:47-08:00",
+    "edtf:inception": "2025-11-03T06:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527529,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2846U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -86,9 +95,10 @@
       102527513,
       102527529,
       1159285413,
-      1947304459
+      1947304459,
+      1159289993
     ],
-    "wof:lastmodified": 1762186071,
+    "wof:lastmodified": 1762186645,
     "wof:name": "UA3772 (SJC-SFO)",
     "wof:parent_id": 1947304459,
     "wof:placetype": "custom",

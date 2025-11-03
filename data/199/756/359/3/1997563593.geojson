@@ -2,10 +2,12 @@
   "id": 1997563593,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-02",
+    "date:cessation_upper": "2025-11-02",
     "date:inception_lower": "2025-11-02",
     "date:inception_upper": "2025-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-02",
+    "edtf:cessation": "2025-11-02T23:39:00Z",
+    "edtf:inception": "2025-11-02T06:13:46-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N33266",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114888458",
+      "swim:gufi": "KO74427100"
+    },
     "wof:country": "US",
     "wof:created": 1762186577,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1997563593,
     "wof:involves": [
-      102532251,
-      102527513,
       1159285413,
-      -1
+      1159289871,
+      102532251,
+      102527513
     ],
-    "wof:lastmodified": 1762186577,
+    "wof:lastmodified": 1762186661,
     "wof:name": "UA8168 (SFO-PDX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

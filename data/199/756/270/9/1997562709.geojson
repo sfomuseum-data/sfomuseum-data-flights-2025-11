@@ -2,10 +2,12 @@
   "id": 1997562709,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-02",
     "date:inception_upper": "2025-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-02",
+    "edtf:cessation": "2025-11-03T20:14:37Z",
+    "edtf:inception": "2025-11-02T15:40:52-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "JX",
     "flysfo:date": "2025-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "iata:airline": "JX",
+    "icao:aircraft": "A359",
     "icao:airline": "SJX",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1880516289,
     "sfomuseum:arrival_id": 102551487,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "B58505",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -86,9 +96,10 @@
       102551487,
       102527513,
       1880516289,
-      1947304097
+      1947304097,
+      1377564293
     ],
-    "wof:lastmodified": 1762186478,
+    "wof:lastmodified": 1762186654,
     "wof:name": "JX3011 (SFO-TPE)",
     "wof:parent_id": 1947304097,
     "wof:placetype": "custom",

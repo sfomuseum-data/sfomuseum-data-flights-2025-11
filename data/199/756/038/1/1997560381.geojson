@@ -2,10 +2,12 @@
   "id": 1997560381,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-02",
     "date:inception_upper": "2025-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-02",
+    "edtf:cessation": "2025-11-03T03:58:00Z",
+    "edtf:inception": "2025-11-02T10:10:27-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20251102-D-AVA-6904",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGMIW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO86040100"
+    },
     "wof:country": "US",
     "wof:created": 1762186212,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1997560381,
     "wof:involves": [
-      102555307,
       102527513,
       1159283597,
       1947304627,
-      1159285749
+      1159285749,
+      1528104575,
+      102555307
     ],
-    "wof:lastmodified": 1762186212,
+    "wof:lastmodified": 1762186639,
     "wof:name": "AC571 (SFO-YVR)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",
