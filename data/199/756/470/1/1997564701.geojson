@@ -2,10 +2,12 @@
   "id": 1997564701,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-03",
     "date:inception_upper": "2025-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-03",
+    "edtf:cessation": "2025-11-03T04:17:34-08:00",
+    "edtf:inception": "2025-11-03T18:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251103-A-AVA-6975",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFSOC",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114946445"
+    },
     "wof:country": "US",
     "wof:created": 1762272130,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1997564701,
     "wof:involves": [
+      1528104575,
       102527513,
       102555307,
       1159283597,
       1947304631,
       1159285749
     ],
-    "wof:lastmodified": 1762272130,
+    "wof:lastmodified": 1762273036,
     "wof:name": "AC564 (YVR-SFO)",
     "wof:parent_id": 1947304631,
     "wof:placetype": "custom",

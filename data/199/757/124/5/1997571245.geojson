@@ -2,10 +2,12 @@
   "id": 1997571245,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-03",
     "date:inception_upper": "2025-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-03",
+    "edtf:cessation": "2025-11-03T18:49:00Z",
+    "edtf:inception": "2025-11-03T17:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N8639B",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114910796",
+      "swim:gufi": "KO54384200"
+    },
     "wof:country": "US",
     "wof:created": 1762272879,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -86,9 +98,10 @@
       102527209,
       102527513,
       1159285591,
-      1947304599
+      1947304599,
+      1159289871
     ],
-    "wof:lastmodified": 1762272879,
+    "wof:lastmodified": 1762273040,
     "wof:name": "WN555 (SFO-LAS)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

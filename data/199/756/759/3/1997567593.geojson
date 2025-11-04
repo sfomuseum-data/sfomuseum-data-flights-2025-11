@@ -2,10 +2,12 @@
   "id": 1997567593,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-03",
     "date:inception_upper": "2025-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-03",
+    "edtf:cessation": "2025-11-03T23:11:29Z",
+    "edtf:inception": "2025-11-03T19:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251103-A-VOZ-8068",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N14107",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114949627",
+      "swim:gufi": "KH635072iU"
+    },
     "wof:country": "US",
     "wof:created": 1762272466,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997567593,
     "wof:involves": [
+      1159289939,
       102527513,
       102534097,
       1159285413,
       1947304463,
       1159285485
     ],
-    "wof:lastmodified": 1762272466,
+    "wof:lastmodified": 1762273055,
     "wof:name": "UA2611 (IAH-SFO)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",

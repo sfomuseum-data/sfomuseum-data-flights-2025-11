@@ -2,10 +2,12 @@
   "id": 1997565971,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-03",
     "date:inception_upper": "2025-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-03",
+    "edtf:cessation": "2025-11-03T02:53:17-08:00",
+    "edtf:inception": "2025-11-03T12:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-11-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N528DE",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114918975",
+      "swim:gufi": "KB41160200"
+    },
     "wof:country": "US",
     "wof:created": 1762272280,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -86,9 +100,10 @@
       102527513,
       102530741,
       1159284261,
-      1947304669
+      1947304669,
+      1377564297
     ],
-    "wof:lastmodified": 1762272280,
+    "wof:lastmodified": 1762273044,
     "wof:name": "DL362 (BOS-SFO)",
     "wof:parent_id": 1947304669,
     "wof:placetype": "custom",

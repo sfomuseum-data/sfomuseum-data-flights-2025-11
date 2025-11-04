@@ -2,10 +2,12 @@
   "id": 1997571781,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-03",
     "date:inception_upper": "2025-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-03",
+    "edtf:cessation": "2025-11-03T21:31:00Z",
+    "edtf:inception": "2025-11-03T00:53:23-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:base_flight_id": "20251103-D-VOZ-8189",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37365",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114940063",
+      "swim:gufi": "KO57409200"
+    },
     "wof:country": "US",
     "wof:created": 1762272943,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1997571781,
     "wof:involves": [
+      1947304517,
+      1159285485,
+      1528104575,
       102529403,
       102527513,
-      1159285413,
-      1947304517,
-      1159285485
+      1159285413
     ],
-    "wof:lastmodified": 1762272943,
+    "wof:lastmodified": 1762273045,
     "wof:name": "UA2665 (SFO-PHL)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",

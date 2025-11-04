@@ -2,10 +2,12 @@
   "id": 1997571625,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
     "date:inception_lower": "2025-11-03",
     "date:inception_upper": "2025-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-03",
+    "edtf:cessation": "2025-11-03T21:31:19Z",
+    "edtf:inception": "2025-11-03T18:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.044202,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:base_flight_id": "20251103-D-ACA-3410",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17229",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114951633",
+      "swim:gufi": "KO65086200"
+    },
     "wof:country": "US",
     "wof:created": 1762272925,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304519,
-      1159283597
+      1159283597,
+      1159289871
     ],
-    "wof:lastmodified": 1762272925,
+    "wof:lastmodified": 1762273043,
     "wof:name": "UA1881 (SFO-SJD)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",

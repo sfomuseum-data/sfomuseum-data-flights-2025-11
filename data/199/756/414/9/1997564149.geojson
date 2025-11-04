@@ -2,10 +2,12 @@
   "id": 1997564149,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-03",
-    "date:inception_upper": "2025-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-03",
+    "date:cessation_lower": "2025-11-03",
+    "date:cessation_upper": "2025-11-03",
+    "date:inception_lower": "2025-11-04",
+    "date:inception_upper": "2025-11-04",
+    "edtf:cessation": "2025-11-03T14:34:32-08:00",
+    "edtf:inception": "2025-11-04T01:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251103-A-GLO-6329",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N302SS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114902756",
+      "swim:gufi": "KR837312IM"
+    },
     "wof:country": "US",
     "wof:created": 1762272053,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1997564149,
     "wof:involves": [
+      1528104575,
       102527513,
       102531023,
       1159283849,
       1947304301,
       1779770725
     ],
-    "wof:lastmodified": 1762272053,
+    "wof:lastmodified": 1762273032,
     "wof:name": "AA1684 (MIA-SFO)",
     "wof:parent_id": 1947304301,
     "wof:placetype": "custom",
