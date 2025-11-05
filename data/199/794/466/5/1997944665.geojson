@@ -2,10 +2,12 @@
   "id": 1997944665,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-04",
+    "date:cessation_upper": "2025-11-04",
     "date:inception_lower": "2025-11-04",
     "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "edtf:cessation": "2025-11-04T02:40:34-08:00",
+    "edtf:inception": "2025-11-04T15:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N909DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115007883",
+      "swim:gufi": "KP50461302"
+    },
     "wof:country": "US",
     "wof:created": 1762358673,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -86,9 +99,10 @@
       102527513,
       102531131,
       1159284261,
-      1947304679
+      1947304679,
+      1377564285
     ],
-    "wof:lastmodified": 1762358673,
+    "wof:lastmodified": 1762359389,
     "wof:name": "DL1999 (MSP-SFO)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

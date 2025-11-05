@@ -2,10 +2,12 @@
   "id": 1997950613,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-04",
-    "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
+    "date:inception_lower": "2025-11-05",
+    "date:inception_upper": "2025-11-05",
+    "edtf:cessation": "2025-11-05T01:18:00Z",
+    "edtf:inception": "2025-11-05T00:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -48,6 +52,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114975163"
+    },
     "wof:country": "US",
     "wof:created": 1762358792,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -83,12 +90,13 @@
     ],
     "wof:id": 1997950613,
     "wof:involves": [
+      1159289871,
       102527513,
       102527209,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1762358792,
+    "wof:lastmodified": 1762359385,
     "wof:name": "WN2176 (LAS-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

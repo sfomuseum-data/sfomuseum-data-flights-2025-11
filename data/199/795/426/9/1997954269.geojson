@@ -2,10 +2,12 @@
   "id": 1997954269,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-04",
+    "date:cessation_upper": "2025-11-04",
     "date:inception_lower": "2025-11-04",
     "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "edtf:cessation": "2025-11-04T06:08:48-08:00",
+    "edtf:inception": "2025-11-04T11:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -2.892393999999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251104-A-CCA-7205",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77012",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114995319",
+      "swim:gufi": "KO74371300"
+    },
     "wof:country": "US",
     "wof:created": 1762358888,
     "wof:geomhash": "96cbe57d72475858a8ed1d7cff76fcd0",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997954269,
     "wof:involves": [
-      102527513,
-      102550367,
       1159285413,
       1947304151,
-      1159283605
+      1159283605,
+      1159289985,
+      102527513,
+      102550367
     ],
-    "wof:lastmodified": 1762358888,
+    "wof:lastmodified": 1762359392,
     "wof:name": "UA889 (PEK-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

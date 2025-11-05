@@ -2,10 +2,12 @@
   "id": 1997943467,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-04",
+    "date:cessation_upper": "2025-11-04",
     "date:inception_lower": "2025-11-04",
     "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "edtf:cessation": "2025-11-04T10:59:38-08:00",
+    "edtf:inception": "2025-11-04T22:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "AS",
+    "icao:aircraft": "A332",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N375HA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "115046286"
+    },
     "wof:country": "US",
     "wof:created": 1762358625,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1997943467,
     "wof:involves": [
-      102527513,
-      102533997,
       1159283813,
-      -1
+      1159289421,
+      102527513,
+      102533997
     ],
-    "wof:lastmodified": 1762358625,
+    "wof:lastmodified": 1762359386,
     "wof:name": "AS812 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

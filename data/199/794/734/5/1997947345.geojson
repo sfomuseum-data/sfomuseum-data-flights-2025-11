@@ -2,10 +2,12 @@
   "id": 1997947345,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-04",
+    "date:cessation_upper": "2025-11-04",
     "date:inception_lower": "2025-11-04",
     "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "edtf:cessation": "2025-11-04T16:35:26Z",
+    "edtf:inception": "2025-11-04T06:30:35Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "KE",
     "flysfo:date": "2025-11-04",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "115057032"
+    },
     "wof:country": "US",
     "wof:created": 1762358747,
     "wof:geomhash": "3ccef5323f8b759efee07225c392c83b",
@@ -51,7 +56,7 @@
       1159284625,
       -1
     ],
-    "wof:lastmodified": 1762358747,
+    "wof:lastmodified": 1762359393,
     "wof:name": "KE2441 (GMP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

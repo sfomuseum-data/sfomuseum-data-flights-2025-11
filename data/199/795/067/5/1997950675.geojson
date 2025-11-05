@@ -2,10 +2,12 @@
   "id": 1997950675,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-04",
+    "date:cessation_upper": "2025-11-04",
     "date:inception_lower": "2025-11-04",
     "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "edtf:cessation": "2025-11-04T18:53:30Z",
+    "edtf:inception": "2025-11-04T14:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8845L",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115005254",
+      "swim:gufi": "KG44475300"
+    },
     "wof:country": "US",
     "wof:created": 1762358796,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1997950675,
     "wof:involves": [
+      1947304601,
+      1528104575,
       102527513,
       102531205,
-      1159285591,
-      1947304601
+      1159285591
     ],
-    "wof:lastmodified": 1762358796,
+    "wof:lastmodified": 1762359386,
     "wof:name": "WN3780 (MDW-SFO)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

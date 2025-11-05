@@ -2,10 +2,12 @@
   "id": 1997968865,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
     "date:inception_lower": "2025-11-04",
     "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "edtf:cessation": "2025-11-05T01:35:00Z",
+    "edtf:inception": "2025-11-04T08:37:58-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20251104-D-AVA-2068",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N47343",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO84344300"
+    },
     "wof:country": "US",
     "wof:created": 1762359261,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997968865,
     "wof:involves": [
-      102533927,
       102527513,
       1159285413,
       1947304137,
-      1159285749
+      1159285749,
+      1528104575,
+      102533927
     ],
-    "wof:lastmodified": 1762359261,
+    "wof:lastmodified": 1762359404,
     "wof:name": "UA1245 (SFO-EUG)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

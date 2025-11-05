@@ -2,10 +2,12 @@
   "id": 1997954089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-04",
+    "date:cessation_upper": "2025-11-04",
     "date:inception_lower": "2025-11-04",
     "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "edtf:cessation": "2025-11-04T08:48:39-08:00",
+    "edtf:inception": "2025-11-04T22:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251104-A-ACA-4031",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N895UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115049727",
+      "swim:gufi": "KA79051300"
+    },
     "wof:country": "US",
     "wof:created": 1762358879,
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997954089,
     "wof:involves": [
-      102527513,
       102529173,
       1159285413,
       1947304613,
-      1159283597
+      1159283597,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1762358879,
+    "wof:lastmodified": 1762359391,
     "wof:name": "UA638 (ABQ-SFO)",
     "wof:parent_id": 1947304613,
     "wof:placetype": "custom",

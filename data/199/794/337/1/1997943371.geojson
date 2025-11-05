@@ -2,10 +2,12 @@
   "id": 1997943371,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-04",
-    "date:inception_upper": "2025-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-04",
+    "date:cessation_lower": "2025-11-04",
+    "date:cessation_upper": "2025-11-04",
+    "date:inception_lower": "2025-11-05",
+    "date:inception_upper": "2025-11-05",
+    "edtf:cessation": "2025-11-04T14:49:45-08:00",
+    "edtf:inception": "2025-11-05T00:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251104-A-AAL-7459",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N435AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KB82523300"
+    },
     "wof:country": "US",
     "wof:created": 1762358619,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997943371,
     "wof:involves": [
-      102527513,
-      102530741,
       1159283813,
       1947304293,
-      1159283849
+      1159283849,
+      1377564285,
+      102527513,
+      102530741
     ],
-    "wof:lastmodified": 1762358619,
+    "wof:lastmodified": 1762359386,
     "wof:name": "AS357 (BOS-SFO)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",
