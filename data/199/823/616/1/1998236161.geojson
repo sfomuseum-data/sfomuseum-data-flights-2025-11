@@ -2,10 +2,12 @@
   "id": 1998236161,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-06T04:54:00Z",
+    "edtf:inception": "2025-11-05T09:04:18-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N710TW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115134930",
+      "swim:gufi": "KO79861400"
+    },
     "wof:country": "US",
     "wof:created": 1762445532,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1998236161,
     "wof:involves": [
+      1159289939,
       102526927,
       102527513,
       1159284261,
       1947304671
     ],
-    "wof:lastmodified": 1762445532,
+    "wof:lastmodified": 1762445830,
     "wof:name": "DL1382 (SFO-ATL)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1998237263,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-05",
-    "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
+    "date:inception_lower": "2025-11-06",
+    "date:inception_upper": "2025-11-06",
+    "edtf:cessation": "2025-11-06T10:08:36Z",
+    "edtf:inception": "2025-11-06T05:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102532047,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8530W",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115068593",
+      "swim:gufi": "KO12215500"
+    },
     "wof:country": "US",
     "wof:created": 1762445658,
     "wof:geomhash": "ff243e97b2d4ce40e0a4accb79115371",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998237263,
     "wof:involves": [
+      1159289871,
       102532047,
       102527513,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1762445658,
+    "wof:lastmodified": 1762445819,
     "wof:name": "WN4301 (SFO-BWI)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

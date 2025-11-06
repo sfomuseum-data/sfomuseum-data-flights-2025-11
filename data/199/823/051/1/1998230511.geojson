@@ -2,10 +2,12 @@
   "id": 1998230511,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-05",
-    "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
+    "date:inception_lower": "2025-11-06",
+    "date:inception_upper": "2025-11-06",
+    "edtf:cessation": "2025-11-05T15:52:07-08:00",
+    "edtf:inception": "2025-11-06T04:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "IBE",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251105-A-IBE-8250",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N123NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115067049",
+      "swim:gufi": "KF08118500"
+    },
     "wof:country": "US",
     "wof:created": 1762444873,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998230511,
     "wof:involves": [
-      102527513,
       102528541,
       1159283849,
       1947304271,
-      1159284511
+      1159284511,
+      1159289411,
+      102527513
     ],
-    "wof:lastmodified": 1762444873,
+    "wof:lastmodified": 1762445804,
     "wof:name": "AA446 (DFW-SFO)",
     "wof:parent_id": 1947304271,
     "wof:placetype": "custom",

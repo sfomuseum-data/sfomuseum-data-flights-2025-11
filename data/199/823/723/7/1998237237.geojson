@@ -2,10 +2,12 @@
   "id": 1998237237,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-06T00:35:09Z",
+    "edtf:inception": "2025-11-05T23:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N7745A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115122112",
+      "swim:gufi": "KO71381400"
+    },
     "wof:country": "US",
     "wof:created": 1762445655,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998237237,
     "wof:involves": [
-      102533795,
-      102527513,
       1159285591,
-      1947304621
+      1947304621,
+      1159289869,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1762445655,
+    "wof:lastmodified": 1762445818,
     "wof:name": "WN1741 (SFO-LAX)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

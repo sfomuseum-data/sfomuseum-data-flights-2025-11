@@ -2,10 +2,12 @@
   "id": 1998233265,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-05T19:48:26Z",
+    "edtf:inception": "2025-11-05T18:39:26Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8954Q",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115095789",
+      "swim:gufi": "KL60730400"
+    },
     "wof:country": "US",
     "wof:created": 1762445204,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998233265,
     "wof:involves": [
+      1528104575,
       102527513,
       102528997,
       1159285591,
       1947304621
     ],
-    "wof:lastmodified": 1762445204,
+    "wof:lastmodified": 1762445809,
     "wof:name": "WN2328 (SAN-SFO)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

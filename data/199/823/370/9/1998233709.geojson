@@ -2,10 +2,12 @@
   "id": 1998233709,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-05",
-    "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
+    "date:inception_lower": "2025-11-06",
+    "date:inception_upper": "2025-11-06",
+    "edtf:cessation": "2025-11-05T10:44:09-08:00",
+    "edtf:inception": "2025-11-06T02:03:42Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251105-A-ACA-4355",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N459UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL03463500"
+    },
     "wof:country": "US",
     "wof:created": 1762445254,
     "wof:geomhash": "aae625247f3652ef8a50cae9f49d2791",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998233709,
     "wof:involves": [
+      1763588337,
+      1159283597,
+      1159292085,
       102527513,
       102527337,
-      1159285413,
-      1763588337,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1762445254,
+    "wof:lastmodified": 1762445811,
     "wof:name": "UA2305 (SBA-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

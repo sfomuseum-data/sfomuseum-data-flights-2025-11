@@ -2,10 +2,12 @@
   "id": 1998237737,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-06T00:07:00Z",
+    "edtf:inception": "2025-11-05T22:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:base_flight_id": "20251105-D-ACA-3535",
@@ -53,6 +57,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115127024"
+    },
     "wof:country": "US",
     "wof:created": 1762445711,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 1998237737,
     "wof:involves": [
-      102526751,
       102527513,
       1159285413,
       1763588337,
-      1159283597
+      1159283597,
+      1159289871,
+      102526751
     ],
-    "wof:lastmodified": 1762445711,
+    "wof:lastmodified": 1762445820,
     "wof:name": "UA2441 (SFO-PHX)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

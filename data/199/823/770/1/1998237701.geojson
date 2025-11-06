@@ -2,10 +2,12 @@
   "id": 1998237701,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-05T06:32:16Z",
+    "edtf:inception": "2025-11-05T03:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:base_flight_id": "20251105-D-ANA-6492",
@@ -53,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115066200",
+      "swim:gufi": "KO08423400"
+    },
     "wof:country": "US",
     "wof:created": 1762445707,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -92,9 +100,10 @@
       102527513,
       1159285413,
       1947304473,
-      1159283875
+      1159283875,
+      1377564285
     ],
-    "wof:lastmodified": 1762445707,
+    "wof:lastmodified": 1762445831,
     "wof:name": "UA2305 (SFO-IAH)",
     "wof:parent_id": 1947304473,
     "wof:placetype": "custom",

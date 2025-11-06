@@ -2,10 +2,12 @@
   "id": 1998237619,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-05T11:44:10Z",
+    "edtf:inception": "2025-11-05T07:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115070577"
+    },
     "wof:country": "US",
     "wof:created": 1762445698,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -94,7 +99,7 @@
       1947304137,
       1159284341
     ],
-    "wof:lastmodified": 1762445698,
+    "wof:lastmodified": 1762445820,
     "wof:name": "UA1870 (SFO-IAD)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

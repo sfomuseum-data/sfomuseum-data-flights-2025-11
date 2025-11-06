@@ -2,10 +2,12 @@
   "id": 1998238045,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-05T19:58:00Z",
+    "edtf:inception": "2025-11-05T19:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27287",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "115110834",
+      "swim:gufi": "KO64796400"
+    },
     "wof:country": "US",
     "wof:created": 1762445746,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1998238045,
     "wof:involves": [
+      1528104575,
       102527337,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1762445746,
+    "wof:lastmodified": 1762445822,
     "wof:name": "UA8121 (SFO-SBA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

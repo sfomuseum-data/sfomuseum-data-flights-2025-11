@@ -2,10 +2,12 @@
   "id": 1998237603,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-05",
+    "date:cessation_upper": "2025-11-05",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-05T12:47:30Z",
+    "edtf:inception": "2025-11-05T07:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115069598"
+    },
     "wof:country": "US",
     "wof:created": 1762445696,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -94,7 +99,7 @@
       1947304531,
       1763699293
     ],
-    "wof:lastmodified": 1762445696,
+    "wof:lastmodified": 1762445819,
     "wof:name": "UA1769 (SFO-MIA)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

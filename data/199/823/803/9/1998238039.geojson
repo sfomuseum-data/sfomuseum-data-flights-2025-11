@@ -2,10 +2,12 @@
   "id": 1998238039,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-06T08:16:00Z",
+    "edtf:inception": "2025-11-05T12:28:42-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530009,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N488UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO09637500"
+    },
     "wof:country": "US",
     "wof:created": 1762445745,
     "wof:geomhash": "8b4edcad4124de1c487808d2d2d1ecd3",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1998238039,
     "wof:involves": [
-      102530009,
-      102527513,
       1159285413,
-      -1
+      1159292085,
+      102530009,
+      102527513
     ],
-    "wof:lastmodified": 1762445745,
+    "wof:lastmodified": 1762445822,
     "wof:name": "UA8115 (SFO-MSY)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

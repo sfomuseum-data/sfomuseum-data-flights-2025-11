@@ -2,10 +2,12 @@
   "id": 1998234529,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
     "date:inception_lower": "2025-11-05",
     "date:inception_upper": "2025-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-05",
+    "edtf:cessation": "2025-11-06T02:19:34Z",
+    "edtf:inception": "2025-11-05T23:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20251105-D-FJI-5017",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N914UY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115131798",
+      "swim:gufi": "KO77915400"
+    },
     "wof:country": "US",
     "wof:created": 1762445348,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998234529,
     "wof:involves": [
-      102528541,
-      102527513,
       1159283849,
       1947304277,
-      1159283717
+      1159283717,
+      1159289411,
+      102528541,
+      102527513
     ],
-    "wof:lastmodified": 1762445348,
+    "wof:lastmodified": 1762445813,
     "wof:name": "AA2177 (SFO-DFW)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",
