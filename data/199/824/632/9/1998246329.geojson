@@ -2,10 +2,12 @@
   "id": 1998246329,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
     "date:inception_lower": "2025-11-06",
     "date:inception_upper": "2025-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-06",
+    "edtf:cessation": "2025-11-06T20:28:00Z",
+    "edtf:inception": "2025-11-06T17:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N75428",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115233790",
+      "swim:gufi": "KO58874500"
+    },
     "wof:country": "US",
     "wof:created": 1762532135,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998246329,
     "wof:involves": [
+      1377564285,
       102534097,
       102527513,
       1159285413,
       1947304463
     ],
-    "wof:lastmodified": 1762532135,
+    "wof:lastmodified": 1762532242,
     "wof:name": "UA3040 (SFO-IAH)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",

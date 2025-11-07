@@ -2,10 +2,12 @@
   "id": 1998242153,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-07",
+    "date:cessation_upper": "2025-11-07",
     "date:inception_lower": "2025-11-06",
     "date:inception_upper": "2025-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-06",
+    "edtf:cessation": "2025-11-06T23:20:46-08:00",
+    "edtf:inception": "2025-11-06T14:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530507,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27568",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115170464",
+      "swim:gufi": "KS47965500"
+    },
     "wof:country": "US",
     "wof:created": 1762531682,
     "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1998242153,
     "wof:involves": [
+      1528104577,
       102527513,
       102530507,
       1159285413,
       1947304531
     ],
-    "wof:lastmodified": 1762531682,
+    "wof:lastmodified": 1762532246,
     "wof:name": "UA400 (RDM-SFO)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

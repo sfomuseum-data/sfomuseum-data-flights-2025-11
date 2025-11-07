@@ -2,10 +2,12 @@
   "id": 1998242339,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-06",
-    "date:inception_upper": "2025-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-06",
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
+    "date:inception_lower": "2025-11-07",
+    "date:inception_upper": "2025-11-07",
+    "edtf:cessation": "2025-11-06T13:53:05-08:00",
+    "edtf:inception": "2025-11-07T00:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.70629299999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251106-A-ANZ-2770",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17322",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115135062",
+      "swim:gufi": "KW83130500"
+    },
     "wof:country": "US",
     "wof:created": 1762531703,
     "wof:geomhash": "cfff966b0a5de3ca50080923c4337cfe",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998242339,
     "wof:involves": [
-      102527513,
-      1746879047,
       1159285413,
       1947304623,
-      1159283697
+      1159283697,
+      1528104575,
+      102527513,
+      1746879047
     ],
-    "wof:lastmodified": 1762531703,
+    "wof:lastmodified": 1762532247,
     "wof:name": "UA699 (DCA-SFO)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",

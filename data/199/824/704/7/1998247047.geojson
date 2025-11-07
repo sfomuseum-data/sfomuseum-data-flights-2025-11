@@ -2,10 +2,12 @@
   "id": 1998247047,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-07",
+    "date:cessation_upper": "2025-11-07",
     "date:inception_lower": "2025-11-06",
     "date:inception_upper": "2025-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-06",
+    "edtf:cessation": "2025-11-07T00:32:59Z",
+    "edtf:inception": "2025-11-06T22:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "WJA",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:base_flight_id": "20251106-D-DAL-6899",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CFLWJ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115209477"
+    },
     "wof:country": "US",
     "wof:created": 1762532215,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998247047,
     "wof:involves": [
+      1159289869,
       102554947,
       102527513,
       1159285523,
       1947304311,
       1159284261
     ],
-    "wof:lastmodified": 1762532215,
+    "wof:lastmodified": 1762532243,
     "wof:name": "WS1501 (SFO-YYC)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",

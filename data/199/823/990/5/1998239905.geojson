@@ -2,10 +2,12 @@
   "id": 1998239905,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-06",
-    "date:inception_upper": "2025-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-06",
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
+    "date:inception_lower": "2025-11-07",
+    "date:inception_upper": "2025-11-07",
+    "edtf:cessation": "2025-11-06T15:23:38-08:00",
+    "edtf:inception": "2025-11-07T06:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251106-A-HAL-6885",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N291BT",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS16203603"
+    },
     "wof:country": "US",
     "wof:created": 1762531435,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -92,9 +105,10 @@
       102533269,
       1159283813,
       1947304303,
-      1159284489
+      1159284489,
+      1528104577
     ],
-    "wof:lastmodified": 1762531435,
+    "wof:lastmodified": 1762532232,
     "wof:name": "AS411 (SEA-SFO)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",

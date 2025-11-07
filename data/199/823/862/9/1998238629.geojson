@@ -2,10 +2,12 @@
   "id": 1998238629,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-06",
+    "date:cessation_upper": "2025-11-06",
     "date:inception_lower": "2025-11-06",
     "date:inception_upper": "2025-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-06",
+    "edtf:cessation": "2025-11-06T08:00:14-08:00",
+    "edtf:inception": "2025-11-06T22:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2025-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N931AM",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115214766",
+      "swim:gufi": "KA74656500"
+    },
     "wof:country": "US",
     "wof:created": 1762531276,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -86,9 +100,10 @@
       102527513,
       102526751,
       1159283849,
-      1947304317
+      1947304317,
+      1159289411
     ],
-    "wof:lastmodified": 1762531276,
+    "wof:lastmodified": 1762532223,
     "wof:name": "AA2846 (PHX-SFO)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",
