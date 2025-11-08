@@ -2,10 +2,12 @@
   "id": 1998250141,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-07",
+    "date:cessation_upper": "2025-11-07",
     "date:inception_lower": "2025-11-07",
     "date:inception_upper": "2025-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-07",
+    "edtf:cessation": "2025-11-07T03:24:02-08:00",
+    "edtf:inception": "2025-11-07T15:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102521851,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N211WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115265146",
+      "swim:gufi": "KH469106Ct"
+    },
     "wof:country": "US",
     "wof:created": 1762618010,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1998250141,
     "wof:involves": [
+      1159289869,
       102527513,
       102521851,
       1159285591,
       1947304601
     ],
-    "wof:lastmodified": 1762618010,
+    "wof:lastmodified": 1762618608,
     "wof:name": "WN771 (AUS-SFO)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

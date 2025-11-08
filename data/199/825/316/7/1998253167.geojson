@@ -2,10 +2,12 @@
   "id": 1998253167,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-07",
+    "date:cessation_upper": "2025-11-07",
     "date:inception_lower": "2025-11-07",
     "date:inception_upper": "2025-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-07",
+    "edtf:cessation": "2025-11-07T23:51:00Z",
+    "edtf:inception": "2025-11-07T04:01:56-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:base_flight_id": "20251107-D-KAL-3471",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N592NW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115291063",
+      "swim:gufi": "KO67741600"
+    },
     "wof:country": "US",
     "wof:created": 1762618343,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998253167,
     "wof:involves": [
-      102525635,
-      102527513,
       1159284261,
       1947304681,
-      1159284625
+      1159284625,
+      1159289945,
+      102525635,
+      102527513
     ],
-    "wof:lastmodified": 1762618343,
+    "wof:lastmodified": 1762618630,
     "wof:name": "DL561 (SFO-DTW)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

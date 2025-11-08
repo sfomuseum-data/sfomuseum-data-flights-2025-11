@@ -2,10 +2,12 @@
   "id": 1998252635,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-08",
+    "date:cessation_upper": "2025-11-08",
     "date:inception_lower": "2025-11-07",
     "date:inception_upper": "2025-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-07",
+    "edtf:cessation": "2025-11-08T02:50:24Z",
+    "edtf:inception": "2025-11-07T21:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20251107-D-HAL-6839",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N729AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO73961600"
+    },
     "wof:country": "US",
     "wof:created": 1762618284,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998252635,
     "wof:involves": [
-      102534365,
-      102527513,
       1159283813,
       1947304285,
-      1159284489
+      1159284489,
+      1528104577,
+      102534365,
+      102527513
     ],
-    "wof:lastmodified": 1762618284,
+    "wof:lastmodified": 1762618626,
     "wof:name": "AS20 (SFO-JFK)",
     "wof:parent_id": 1947304285,
     "wof:placetype": "custom",

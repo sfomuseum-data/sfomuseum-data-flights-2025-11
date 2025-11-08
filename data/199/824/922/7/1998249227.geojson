@@ -2,10 +2,12 @@
   "id": 1998249227,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-07",
-    "date:inception_upper": "2025-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-07",
+    "date:cessation_lower": "2025-11-08",
+    "date:cessation_upper": "2025-11-08",
+    "date:inception_lower": "2025-11-08",
+    "date:inception_upper": "2025-11-08",
+    "edtf:cessation": "2025-11-08T03:08:00Z",
+    "edtf:inception": "2025-11-08T01:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-11-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533591,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N705FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL02853700"
+    },
     "wof:country": "US",
     "wof:created": 1762617910,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998249227,
     "wof:involves": [
-      102527513,
-      102533591,
       1159284401,
-      1947304091
+      1947304091,
+      1159289411,
+      102527513,
+      102533591
     ],
-    "wof:lastmodified": 1762617910,
+    "wof:lastmodified": 1762618619,
     "wof:name": "F92479 (PSP-SFO)",
     "wof:parent_id": 1947304091,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1998254533,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-07",
+    "date:cessation_upper": "2025-11-07",
     "date:inception_lower": "2025-11-07",
     "date:inception_upper": "2025-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-07",
+    "edtf:cessation": "2025-11-07T03:20:00Z",
+    "edtf:inception": "2025-11-07T02:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:base_flight_id": "20251107-D-DLH-7490",
@@ -39,7 +43,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "115234491"
+    },
     "wof:country": "US",
     "wof:created": 1762618487,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -51,13 +61,13 @@
     ],
     "wof:id": 1998254533,
     "wof:involves": [
-      102525535,
-      102527513,
       1159285413,
-      -1,
-      1159286015
+      1159286015,
+      1159289407,
+      102525535,
+      102527513
     ],
-    "wof:lastmodified": 1762618487,
+    "wof:lastmodified": 1762618634,
     "wof:name": "UA1061 (SFO-RNO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

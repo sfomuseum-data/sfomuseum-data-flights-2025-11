@@ -2,10 +2,12 @@
   "id": 1998254909,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-07",
+    "date:cessation_upper": "2025-11-07",
     "date:inception_lower": "2025-11-07",
     "date:inception_upper": "2025-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-07",
+    "edtf:cessation": "2025-11-07T22:23:00Z",
+    "edtf:inception": "2025-11-07T09:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 0.30624449999999825,
     "geom:longitude": 26.208867500000004,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102552389,
     "sfomuseum:departure_id": 102527513,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "115334139"
+    },
     "wof:country": "US",
     "wof:created": 1762618526,
     "wof:geomhash": "0a41093e5d82882db018a6f46a3ef58a",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 1998254909,
     "wof:involves": [
+      1159289985,
       102552389,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1762618526,
+    "wof:lastmodified": 1762618627,
     "wof:name": "UA3917 (SFO-AKL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
