@@ -2,10 +2,12 @@
   "id": 1998258639,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-08",
+    "date:cessation_upper": "2025-11-08",
     "date:inception_lower": "2025-11-08",
     "date:inception_upper": "2025-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-08",
+    "edtf:cessation": "2025-11-08T05:50:00Z",
+    "edtf:inception": "2025-11-08T04:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251108-A-ANA-7284",
@@ -53,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115322861",
+      "swim:gufi": "KS01942700"
+    },
     "wof:country": "US",
     "wof:created": 1762704411,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1998258639,
     "wof:involves": [
+      1159283875,
+      1159289871,
       102527513,
       102533269,
       1159285413,
-      1763588337,
-      1159283875
+      1763588337
     ],
-    "wof:lastmodified": 1762704411,
+    "wof:lastmodified": 1762704939,
     "wof:name": "UA1424 (SEA-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

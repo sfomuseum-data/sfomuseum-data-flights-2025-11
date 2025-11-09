@@ -2,10 +2,12 @@
   "id": 1998258695,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-08",
-    "date:inception_upper": "2025-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-08",
+    "date:cessation_lower": "2025-11-09",
+    "date:cessation_upper": "2025-11-09",
+    "date:inception_lower": "2025-11-09",
+    "date:inception_upper": "2025-11-09",
+    "edtf:cessation": "2025-11-09T04:08:03Z",
+    "edtf:inception": "2025-11-09T03:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251108-A-AVA-2150",
@@ -53,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115328176",
+      "swim:gufi": "KL07332100"
+    },
     "wof:country": "US",
     "wof:created": 1762704417,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1998258695,
     "wof:involves": [
+      1159285749,
+      1528104577,
       102527513,
       102533795,
       1159285413,
-      1947304455,
-      1159285749
+      1947304455
     ],
-    "wof:lastmodified": 1762704417,
+    "wof:lastmodified": 1762704940,
     "wof:name": "UA1743 (LAX-SFO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

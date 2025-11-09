@@ -2,10 +2,12 @@
   "id": 1998255671,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-08",
+    "date:cessation_upper": "2025-11-08",
     "date:inception_lower": "2025-11-08",
     "date:inception_upper": "2025-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-08",
+    "edtf:cessation": "2025-11-08T13:14:00-08:00",
+    "edtf:inception": "2025-11-08T23:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251108-A-BAW-5019",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N328TC",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115393105",
+      "swim:gufi": "KR765297ZY"
+    },
     "wof:country": "US",
     "wof:created": 1762704074,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998255671,
     "wof:involves": [
+      1159284021,
+      1528104575,
       102527513,
       102531023,
       1159283849,
-      1947304309,
-      1159284021
+      1947304309
     ],
-    "wof:lastmodified": 1762704074,
+    "wof:lastmodified": 1762704922,
     "wof:name": "AA2933 (MIA-SFO)",
     "wof:parent_id": 1947304309,
     "wof:placetype": "custom",
