@@ -2,10 +2,12 @@
   "id": 1998266779,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-09",
+    "date:cessation_upper": "2025-11-09",
     "date:inception_lower": "2025-11-09",
     "date:inception_upper": "2025-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-09",
+    "edtf:cessation": "2025-11-09T14:53:00Z",
+    "edtf:inception": "2025-11-09T10:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.859366,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251109-A-AVA-2357",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115414032",
+      "swim:gufi": "KO24940100"
+    },
     "wof:country": "US",
     "wof:created": 1762790908,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1998266779,
     "wof:involves": [
+      1159285749,
+      1528104575,
       102527513,
       102528943,
       1159285413,
-      1947304453,
-      1159285749
+      1947304453
     ],
-    "wof:lastmodified": 1762790908,
+    "wof:lastmodified": 1762791519,
     "wof:name": "UA1685 (LIH-SFO)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

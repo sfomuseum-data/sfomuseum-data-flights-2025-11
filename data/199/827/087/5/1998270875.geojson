@@ -2,10 +2,12 @@
   "id": 1998270875,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-10",
+    "date:cessation_upper": "2025-11-10",
     "date:inception_lower": "2025-11-09",
     "date:inception_upper": "2025-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-09",
+    "edtf:cessation": "2025-11-10T03:13:00Z",
+    "edtf:inception": "2025-11-09T22:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:base_flight_id": "20251109-D-ANZ-9162",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N57862",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115461324",
+      "swim:gufi": "KO73418100"
+    },
     "wof:country": "US",
     "wof:created": 1762791379,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304453,
-      1159283697
+      1159283697,
+      1159289945
     ],
-    "wof:lastmodified": 1762791379,
+    "wof:lastmodified": 1762791503,
     "wof:name": "UA1354 (SFO-IAD)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

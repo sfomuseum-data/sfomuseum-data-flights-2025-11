@@ -2,10 +2,12 @@
   "id": 1998266425,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-09",
-    "date:inception_upper": "2025-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-09",
+    "date:cessation_lower": "2025-11-09",
+    "date:cessation_upper": "2025-11-09",
+    "date:inception_lower": "2025-11-10",
+    "date:inception_upper": "2025-11-10",
+    "edtf:cessation": "2025-11-09T09:09:36-08:00",
+    "edtf:inception": "2025-11-10T00:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8573Z",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115470852",
+      "swim:gufi": "KL78113100"
+    },
     "wof:country": "US",
     "wof:created": 1762790867,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1998266425,
     "wof:involves": [
+      1159289871,
       102527513,
       102528997,
       1159285591,
       1947304601
     ],
-    "wof:lastmodified": 1762790867,
+    "wof:lastmodified": 1762791518,
     "wof:name": "WN2476 (SAN-SFO)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

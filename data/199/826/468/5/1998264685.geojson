@@ -2,10 +2,12 @@
   "id": 1998264685,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-09",
-    "date:inception_upper": "2025-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-09",
+    "date:cessation_lower": "2025-11-09",
+    "date:cessation_upper": "2025-11-09",
+    "date:inception_lower": "2025-11-10",
+    "date:inception_upper": "2025-11-10",
+    "edtf:cessation": "2025-11-09T13:39:05-08:00",
+    "edtf:inception": "2025-11-10T04:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251109-A-AAL-9382",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N722AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL11106201"
+    },
     "wof:country": "US",
     "wof:created": 1762790663,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998264685,
     "wof:involves": [
-      102527513,
-      102528997,
       1159283813,
       1947304275,
-      1159283849
+      1159283849,
+      1528104577,
+      102527513,
+      102528997
     ],
-    "wof:lastmodified": 1762790663,
+    "wof:lastmodified": 1762791504,
     "wof:name": "AS1406 (SAN-SFO)",
     "wof:parent_id": 1947304275,
     "wof:placetype": "custom",

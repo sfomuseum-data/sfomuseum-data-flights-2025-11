@@ -2,10 +2,12 @@
   "id": 1998269455,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-09",
-    "date:inception_upper": "2025-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-09",
+    "date:cessation_lower": "2025-11-10",
+    "date:cessation_upper": "2025-11-10",
+    "date:inception_lower": "2025-11-10",
+    "date:inception_upper": "2025-11-10",
+    "edtf:cessation": "2025-11-10T05:18:00Z",
+    "edtf:inception": "2025-11-10T00:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20251109-D-AFR-8669",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N187DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115463281"
+    },
     "wof:country": "US",
     "wof:created": 1762791216,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1998269455,
     "wof:involves": [
+      1159289965,
       102534365,
       102527513,
       1159284261,
       1763588251,
       1159283627
     ],
-    "wof:lastmodified": 1762791216,
+    "wof:lastmodified": 1762791513,
     "wof:name": "DL669 (SFO-JFK)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

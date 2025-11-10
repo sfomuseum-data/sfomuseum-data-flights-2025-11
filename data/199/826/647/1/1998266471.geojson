@@ -2,10 +2,12 @@
   "id": 1998266471,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-09",
+    "date:cessation_upper": "2025-11-09",
     "date:inception_lower": "2025-11-09",
     "date:inception_upper": "2025-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-09",
+    "edtf:cessation": "2025-11-09T04:21:03-08:00",
+    "edtf:inception": "2025-11-09T16:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.635332,
     "geom:longitude": -108.8251435,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531775,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8930S",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "115490566",
+      "swim:gufi": "KH509071Ek"
+    },
     "wof:country": "US",
     "wof:created": 1762790872,
     "wof:geomhash": "a5dc7134a1c5d943495b40cb1b713674",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1998266471,
     "wof:involves": [
-      102527513,
-      102531775,
       1159285591,
-      -1
+      1528104575,
+      102527513,
+      102531775
     ],
-    "wof:lastmodified": 1762790872,
+    "wof:lastmodified": 1762791518,
     "wof:name": "WN8826 (HOU-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

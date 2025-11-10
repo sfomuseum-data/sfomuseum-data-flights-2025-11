@@ -2,10 +2,12 @@
   "id": 1998266765,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-09",
+    "date:cessation_upper": "2025-11-09",
     "date:inception_lower": "2025-11-09",
     "date:inception_upper": "2025-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-09",
+    "edtf:cessation": "2025-11-09T03:01:37-08:00",
+    "edtf:inception": "2025-11-09T13:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.5210065,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251109-A-ANZ-9035",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17402",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115422386",
+      "swim:gufi": "KW45688100"
+    },
     "wof:country": "US",
     "wof:created": 1762790906,
     "wof:geomhash": "10c01f207ef95eecc919066d165ec5eb",
@@ -92,9 +106,10 @@
       102532047,
       1159285413,
       1947304531,
-      1159283697
+      1159283697,
+      1528104577
     ],
-    "wof:lastmodified": 1762790906,
+    "wof:lastmodified": 1762791519,
     "wof:name": "UA1596 (BWI-SFO)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",
