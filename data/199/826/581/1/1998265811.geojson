@@ -1,0 +1,78 @@
+{
+  "id": 1998265811,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-09",
+    "date:inception_upper": "2025-11-09",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-09",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "HA",
+    "flysfo:base_airline": "",
+    "flysfo:base_flight_number": "9276",
+    "flysfo:date": "2025-11-09",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "HA6541",
+    "flysfo:gate": "",
+    "flysfo:journey": "SAN-SFO",
+    "flysfo:scheduled_timestamp": 1762714860,
+    "flysfo:timestamp": 1762714860,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,32.733534,-117.185927,37.617990",
+    "geom:latitude": 35.175762,
+    "geom:longitude": -119.778435,
+    "iata:airline": "HA",
+    "iata:base_airline": "",
+    "icao:airline": "HAL",
+    "icao:base_airline": "AAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284489,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:base_flight_id": "20251109-A-AAL-9276",
+    "sfomuseum:departure_id": 102528997,
+    "sfomuseum:flight_id": "20251109-A-HAL-6541",
+    "sfomuseum:flight_number": [
+      "HAL6541",
+      "HA6541"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1762790795,
+    "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998265811,
+        "flight_id": 1998265811
+      }
+    ],
+    "wof:id": 1998265811,
+    "wof:involves": [
+      102527513,
+      102528997,
+      1159284489,
+      -1,
+      1159283849
+    ],
+    "wof:lastmodified": 1762790795,
+    "wof:name": "HA6541 (SAN-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    32.733534,
+    -117.185927,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-117.185927,32.733534],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
