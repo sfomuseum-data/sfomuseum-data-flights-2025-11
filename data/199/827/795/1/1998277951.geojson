@@ -2,10 +2,12 @@
   "id": 1998277951,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-10",
+    "date:cessation_upper": "2025-11-10",
     "date:inception_lower": "2025-11-10",
     "date:inception_upper": "2025-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-10",
+    "edtf:cessation": "2025-11-10T21:41:00Z",
+    "edtf:inception": "2025-11-10T04:23:54-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-11-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N655DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO67261200"
+    },
     "wof:country": "US",
     "wof:created": 1762877586,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1998277951,
     "wof:involves": [
-      102527363,
-      102527513,
       1159284261,
-      -1
+      1159289939,
+      102527363,
+      102527513
     ],
-    "wof:lastmodified": 1762877586,
+    "wof:lastmodified": 1762877885,
     "wof:name": "DL8927 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

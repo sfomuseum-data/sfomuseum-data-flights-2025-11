@@ -2,10 +2,12 @@
   "id": 1998275207,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-10",
+    "date:cessation_upper": "2025-11-10",
     "date:inception_lower": "2025-11-10",
     "date:inception_upper": "2025-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-10",
+    "edtf:cessation": "2025-11-10T12:30:22-08:00",
+    "edtf:inception": "2025-11-10T23:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251110-A-DLH-7488",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2749U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115540393",
+      "swim:gufi": "KW80071200"
+    },
     "wof:country": "US",
     "wof:created": 1762877272,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998275207,
     "wof:involves": [
-      102527513,
       102528817,
       1159285413,
       1947304455,
-      1159286015
+      1159286015,
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1762877272,
+    "wof:lastmodified": 1762877861,
     "wof:name": "UA1757 (IAD-SFO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

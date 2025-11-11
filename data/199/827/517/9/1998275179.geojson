@@ -2,10 +2,12 @@
   "id": 1998275179,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-10",
+    "date:cessation_upper": "2025-11-10",
     "date:inception_lower": "2025-11-10",
     "date:inception_upper": "2025-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-10",
+    "edtf:cessation": "2025-11-10T01:06:03-08:00",
+    "edtf:inception": "2025-11-10T15:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251110-A-ACA-3341",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N848UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115506764",
+      "swim:gufi": "KS52816200"
+    },
     "wof:country": "US",
     "wof:created": 1762877268,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998275179,
     "wof:involves": [
+      1159289407,
       102527513,
       102532251,
       1159285413,
       1947304619,
       1159283597
     ],
-    "wof:lastmodified": 1762877268,
+    "wof:lastmodified": 1762877861,
     "wof:name": "UA1660 (PDX-SFO)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

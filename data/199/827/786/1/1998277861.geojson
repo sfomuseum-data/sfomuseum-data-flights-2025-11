@@ -2,10 +2,12 @@
   "id": 1998277861,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-11",
+    "date:cessation_upper": "2025-11-11",
     "date:inception_lower": "2025-11-10",
     "date:inception_upper": "2025-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-10",
+    "edtf:cessation": "2025-11-11T03:27:00Z",
+    "edtf:inception": "2025-11-10T08:30:56-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "CES",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:base_flight_id": "20251110-D-CES-8714",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N908DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115543722",
+      "swim:gufi": "KO81481200"
+    },
     "wof:country": "US",
     "wof:created": 1762877575,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998277861,
     "wof:involves": [
-      102531131,
-      102527513,
       1159284261,
       1947304669,
-      1159284157
+      1159284157,
+      1377564285,
+      102531131,
+      102527513
     ],
-    "wof:lastmodified": 1762877575,
+    "wof:lastmodified": 1762877885,
     "wof:name": "DL2159 (SFO-MSP)",
     "wof:parent_id": 1947304669,
     "wof:placetype": "custom",

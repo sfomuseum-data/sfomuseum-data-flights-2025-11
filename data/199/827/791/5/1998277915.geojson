@@ -2,10 +2,12 @@
   "id": 1998277915,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-10",
-    "date:inception_upper": "2025-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-10",
+    "date:cessation_lower": "2025-11-10",
+    "date:cessation_upper": "2025-11-10",
+    "date:inception_lower": "2025-11-11",
+    "date:inception_upper": "2025-11-11",
+    "edtf:cessation": "2025-11-10T18:25:00Z",
+    "edtf:inception": "2025-11-10T22:10:15-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20251110-D-AMX-4297",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N6712B",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115500774",
+      "swim:gufi": "KO47461202"
+    },
     "wof:country": "US",
     "wof:created": 1762877581,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998277915,
     "wof:involves": [
-      102526927,
-      102527513,
       1159284261,
       1947304675,
-      1159283539
+      1159283539,
+      1159289939,
+      102526927,
+      102527513
     ],
-    "wof:lastmodified": 1762877581,
+    "wof:lastmodified": 1762877868,
     "wof:name": "DL570 (SFO-ATL)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

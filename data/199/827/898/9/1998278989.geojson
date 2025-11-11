@@ -2,10 +2,12 @@
   "id": 1998278989,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-11",
+    "date:cessation_upper": "2025-11-11",
     "date:inception_lower": "2025-11-10",
     "date:inception_upper": "2025-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-10",
+    "edtf:cessation": "2025-11-11T08:00:00Z",
+    "edtf:inception": "2025-11-10T14:56:51-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8558Z",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO09792300"
+    },
     "wof:country": "US",
     "wof:created": 1762877703,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1998278989,
     "wof:involves": [
+      1159289871,
       102528997,
       102527513,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1762877703,
+    "wof:lastmodified": 1762877871,
     "wof:name": "WN8509 (SFO-SAN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
