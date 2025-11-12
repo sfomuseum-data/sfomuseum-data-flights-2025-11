@@ -2,10 +2,12 @@
   "id": 1998283615,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-11",
+    "date:cessation_upper": "2025-11-11",
     "date:inception_lower": "2025-11-11",
     "date:inception_upper": "2025-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-11",
+    "edtf:cessation": "2025-11-11T11:57:04-08:00",
+    "edtf:inception": "2025-11-11T23:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251111-A-ACA-4375",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N44550",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115616488",
+      "swim:gufi": "KG80812300"
+    },
     "wof:country": "US",
     "wof:created": 1762963661,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998283615,
     "wof:involves": [
+      1947304525,
+      1159283597,
+      1377564297,
       102527513,
       102533631,
-      1159285413,
-      1947304525,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1762963661,
+    "wof:lastmodified": 1762964193,
     "wof:name": "UA448 (ORD-SFO)",
     "wof:parent_id": 1947304525,
     "wof:placetype": "custom",

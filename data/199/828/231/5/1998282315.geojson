@@ -2,10 +2,12 @@
   "id": 1998282315,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-11",
+    "date:cessation_upper": "2025-11-11",
     "date:inception_lower": "2025-11-11",
     "date:inception_upper": "2025-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-11",
+    "edtf:cessation": "2025-11-11T08:06:00Z",
+    "edtf:inception": "2025-11-11T05:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-11-11",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115559345"
+    },
     "wof:country": "US",
     "wof:created": 1762963507,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -88,7 +93,7 @@
       1159284401,
       1947304091
     ],
-    "wof:lastmodified": 1762963507,
+    "wof:lastmodified": 1762964187,
     "wof:name": "F93439 (DEN-SFO)",
     "wof:parent_id": 1947304091,
     "wof:placetype": "custom",

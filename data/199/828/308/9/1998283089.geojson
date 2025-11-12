@@ -2,10 +2,12 @@
   "id": 1998283089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-11",
+    "date:cessation_upper": "2025-11-11",
     "date:inception_lower": "2025-11-11",
     "date:inception_upper": "2025-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-11",
+    "edtf:cessation": "2025-11-11T17:33:00Z",
+    "edtf:inception": "2025-11-11T15:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8755L",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "115634440",
+      "swim:gufi": "KD46563300"
+    },
     "wof:country": "US",
     "wof:created": 1762963598,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1998283089,
     "wof:involves": [
+      1528104575,
       102527513,
       102531189,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1762963598,
+    "wof:lastmodified": 1762964191,
     "wof:name": "WN8829 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

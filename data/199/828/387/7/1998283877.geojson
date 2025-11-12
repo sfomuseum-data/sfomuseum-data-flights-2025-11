@@ -2,10 +2,12 @@
   "id": 1998283877,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-11",
-    "date:inception_upper": "2025-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-11",
+    "date:cessation_lower": "2025-11-12",
+    "date:cessation_upper": "2025-11-12",
+    "date:inception_lower": "2025-11-12",
+    "date:inception_upper": "2025-11-12",
+    "edtf:cessation": "2025-11-11T22:30:30-08:00",
+    "edtf:inception": "2025-11-12T03:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 26.208867500000004,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251111-A-DLH-9324",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N79011",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO75918300"
+    },
     "wof:country": "US",
     "wof:created": 1762963693,
     "wof:geomhash": "07839d38a937070012f963bfe77eb5da",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998283877,
     "wof:involves": [
+      1159289985,
       102527513,
       102552389,
       1159285413,
       1947304147,
       1159286015
     ],
-    "wof:lastmodified": 1762963693,
+    "wof:lastmodified": 1762964194,
     "wof:name": "UA916 (AKL-SFO)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",
