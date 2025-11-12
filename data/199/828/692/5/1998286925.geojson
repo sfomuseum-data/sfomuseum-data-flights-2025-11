@@ -1,0 +1,72 @@
+{
+  "id": 1998286925,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-11",
+    "date:inception_upper": "2025-11-11",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-11",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-11-11",
+    "flysfo:estimated_timestamp": 1762898760,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "WN8831",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-DAL",
+    "flysfo:scheduled_timestamp": 1762898700,
+    "flysfo:timestamp": 1762898760,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,32.845849,-96.850523,37.617990",
+    "geom:latitude": 35.231919500000004,
+    "geom:longitude": -109.610733,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102525799,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251111-D-SWA-8831",
+    "sfomuseum:flight_number": [
+      "SWA8831",
+      "WN8831"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1762964044,
+    "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998286925,
+        "flight_id": 1998286925
+      }
+    ],
+    "wof:id": 1998286925,
+    "wof:involves": [
+      102525799,
+      102527513,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1762964044,
+    "wof:name": "WN8831 (SFO-DAL)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    32.845849,
+    -96.850523,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-96.850523,32.845849]],"type":"MultiPoint"}
+}
