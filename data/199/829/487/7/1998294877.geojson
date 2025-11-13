@@ -1,0 +1,72 @@
+{
+  "id": 1998294877,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-12",
+    "date:inception_upper": "2025-11-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-11-12",
+    "flysfo:estimated_timestamp": 1762985700,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "WN8845",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-HOU",
+    "flysfo:scheduled_timestamp": 1762985700,
+    "flysfo:timestamp": 1762985700,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,29.652674,-95.279344,37.617990",
+    "geom:latitude": 33.635332,
+    "geom:longitude": -108.8251435,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102531775,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251112-D-SWA-8845",
+    "sfomuseum:flight_number": [
+      "SWA8845",
+      "WN8845"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1763050491,
+    "wof:geomhash": "659cd7ad5e5126045522d61820d30c49",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998294877,
+        "flight_id": 1998294877
+      }
+    ],
+    "wof:id": 1998294877,
+    "wof:involves": [
+      102531775,
+      102527513,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1763050491,
+    "wof:name": "WN8845 (SFO-HOU)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    29.652674,
+    -95.279344,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-95.279344,29.652674]],"type":"MultiPoint"}
+}
