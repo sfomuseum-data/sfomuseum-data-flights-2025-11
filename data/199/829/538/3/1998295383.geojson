@@ -2,10 +2,12 @@
   "id": 1998295383,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-12",
+    "date:cessation_upper": "2025-11-12",
     "date:inception_lower": "2025-11-12",
     "date:inception_upper": "2025-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-12",
+    "edtf:cessation": "2025-11-12T23:07:53Z",
+    "edtf:inception": "2025-11-12T19:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N459UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115724802",
+      "swim:gufi": "KO63967400"
+    },
     "wof:country": "US",
     "wof:created": 1763050549,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998295383,
     "wof:involves": [
-      102533631,
       102527513,
       1159285413,
-      1947304621
+      1947304621,
+      1159292085,
+      102533631
     ],
-    "wof:lastmodified": 1763050549,
+    "wof:lastmodified": 1763050661,
     "wof:name": "UA3049 (SFO-ORD)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

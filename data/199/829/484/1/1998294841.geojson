@@ -2,10 +2,12 @@
   "id": 1998294841,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-12",
-    "date:inception_upper": "2025-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-12",
+    "date:cessation_lower": "2025-11-13",
+    "date:cessation_upper": "2025-11-13",
+    "date:inception_lower": "2025-11-13",
+    "date:inception_upper": "2025-11-13",
+    "edtf:cessation": "2025-11-13T02:12:00Z",
+    "edtf:inception": "2025-11-13T01:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8809L",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115621249",
+      "swim:gufi": "KO81112400"
+    },
     "wof:country": "US",
     "wof:created": 1763050487,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998294841,
     "wof:involves": [
+      1528104575,
       102528997,
       102527513,
       1159285591,
       1947304597
     ],
-    "wof:lastmodified": 1763050487,
+    "wof:lastmodified": 1763050669,
     "wof:name": "WN2350 (SFO-SAN)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

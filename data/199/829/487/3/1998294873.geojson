@@ -2,10 +2,12 @@
   "id": 1998294873,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-12",
+    "date:cessation_upper": "2025-11-12",
     "date:inception_lower": "2025-11-12",
     "date:inception_upper": "2025-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-12",
+    "edtf:cessation": "2025-11-12T16:41:00Z",
+    "edtf:inception": "2025-11-12T15:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115651859",
+      "swim:gufi": "KO47969400"
+    },
     "wof:country": "US",
     "wof:created": 1763050491,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1998294873,
     "wof:involves": [
+      1947304621,
+      1159289869,
       102533795,
       102527513,
-      1159285591,
-      1947304621
+      1159285591
     ],
-    "wof:lastmodified": 1763050491,
+    "wof:lastmodified": 1763050659,
     "wof:name": "WN572 (SFO-LAX)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

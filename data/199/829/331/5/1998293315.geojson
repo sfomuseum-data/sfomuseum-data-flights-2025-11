@@ -2,10 +2,12 @@
   "id": 1998293315,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-12",
+    "date:cessation_upper": "2025-11-12",
     "date:inception_lower": "2025-11-12",
     "date:inception_upper": "2025-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-12",
+    "edtf:cessation": "2025-11-12T21:20:00Z",
+    "edtf:inception": "2025-11-12T00:45:57-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20251112-D-HAL-6985",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N516AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115649884",
+      "swim:gufi": "KO50103402"
+    },
     "wof:country": "US",
     "wof:created": 1763050313,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304273,
-      1159284489
+      1159284489,
+      1159289871
     ],
-    "wof:lastmodified": 1763050313,
+    "wof:lastmodified": 1763050667,
     "wof:name": "AS30 (SFO-JFK)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",
