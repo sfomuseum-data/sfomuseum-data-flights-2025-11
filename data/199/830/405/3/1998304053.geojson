@@ -1,0 +1,72 @@
+{
+  "id": 1998304053,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-13",
+    "date:inception_upper": "2025-11-13",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-13",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-11-13",
+    "flysfo:estimated_timestamp": 1763100900,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA8118",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-EUG",
+    "flysfo:scheduled_timestamp": 1763100900,
+    "flysfo:timestamp": 1763100900,
+    "geom:area": 0,
+    "geom:bbox": "-123.213030,37.617990,-122.370943,44.119058",
+    "geom:latitude": 40.868524,
+    "geom:longitude": -122.79198650000001,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102533927,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251113-D-UAL-8118",
+    "sfomuseum:flight_number": [
+      "UAL8118",
+      "UA8118"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1763137015,
+    "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998304053,
+        "flight_id": 1998304053
+      }
+    ],
+    "wof:id": 1998304053,
+    "wof:involves": [
+      102533927,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1763137015,
+    "wof:name": "UA8118 (SFO-EUG)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -123.21303,
+    37.61799,
+    -122.370943,
+    44.119058
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-123.21303,44.119058]],"type":"MultiPoint"}
+}
