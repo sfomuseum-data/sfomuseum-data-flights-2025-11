@@ -2,10 +2,12 @@
   "id": 1998303245,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-13",
-    "date:inception_upper": "2025-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-13",
+    "date:cessation_lower": "2025-11-14",
+    "date:cessation_upper": "2025-11-14",
+    "date:inception_lower": "2025-11-14",
+    "date:inception_upper": "2025-11-14",
+    "edtf:cessation": "2025-11-14T04:25:00Z",
+    "edtf:inception": "2025-11-14T02:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "115797328"
+    },
     "wof:country": "US",
     "wof:created": 1763136909,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -46,12 +56,12 @@
     ],
     "wof:id": 1998303245,
     "wof:involves": [
-      102531189,
-      102527513,
       1159285591,
-      -1
+      1159289869,
+      102531189,
+      102527513
     ],
-    "wof:lastmodified": 1763136909,
+    "wof:lastmodified": 1763137109,
     "wof:name": "WN8811 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

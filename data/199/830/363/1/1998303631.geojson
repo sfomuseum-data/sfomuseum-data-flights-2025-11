@@ -2,10 +2,12 @@
   "id": 1998303631,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-13",
+    "date:cessation_upper": "2025-11-13",
     "date:inception_lower": "2025-11-13",
     "date:inception_upper": "2025-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-13",
+    "edtf:cessation": "2025-11-13T04:41:21Z",
+    "edtf:inception": "2025-11-13T03:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20251113-D-ANA-7304",
@@ -53,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115701107",
+      "swim:gufi": "KO07301500"
+    },
     "wof:country": "US",
     "wof:created": 1763136954,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +100,10 @@
       102527513,
       1159285413,
       1947304137,
-      1159283875
+      1159283875,
+      1159289407
     ],
-    "wof:lastmodified": 1763136954,
+    "wof:lastmodified": 1763137111,
     "wof:name": "UA2019 (SFO-SEA)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

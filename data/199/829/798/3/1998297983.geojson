@@ -2,10 +2,12 @@
   "id": 1998297983,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-13",
+    "date:cessation_upper": "2025-11-13",
     "date:inception_lower": "2025-11-13",
     "date:inception_upper": "2025-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-13",
+    "edtf:cessation": "2025-11-13T19:01:44Z",
+    "edtf:inception": "2025-11-13T12:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "ELY",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251113-A-ELY-4227",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N535DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115714840",
+      "swim:gufi": "KB41761500"
+    },
     "wof:country": "US",
     "wof:created": 1763136305,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998297983,
     "wof:involves": [
-      102527513,
-      102530741,
       1159284261,
       1947304671,
-      1159284327
+      1159284327,
+      1377564297,
+      102527513,
+      102530741
     ],
-    "wof:lastmodified": 1763136305,
+    "wof:lastmodified": 1763137099,
     "wof:name": "DL362 (BOS-SFO)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

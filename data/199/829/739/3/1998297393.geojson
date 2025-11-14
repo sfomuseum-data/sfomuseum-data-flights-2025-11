@@ -2,10 +2,12 @@
   "id": 1998297393,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-13",
-    "date:inception_upper": "2025-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-13",
+    "date:cessation_lower": "2025-11-13",
+    "date:cessation_upper": "2025-11-13",
+    "date:inception_lower": "2025-11-14",
+    "date:inception_upper": "2025-11-14",
+    "edtf:cessation": "2025-11-13T13:03:37-08:00",
+    "edtf:inception": "2025-11-14T02:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.044202,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251113-A-HAL-7073",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N734AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115698579",
+      "swim:gufi": "KL13204600"
+    },
     "wof:country": "US",
     "wof:created": 1763136237,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998297393,
     "wof:involves": [
+      1528104577,
       102527513,
       102536441,
       1159283813,
       1947304271,
       1159284489
     ],
-    "wof:lastmodified": 1763136237,
+    "wof:lastmodified": 1763137095,
     "wof:name": "AS1379 (SJD-SFO)",
     "wof:parent_id": 1947304271,
     "wof:placetype": "custom",

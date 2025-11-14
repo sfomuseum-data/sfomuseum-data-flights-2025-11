@@ -2,10 +2,12 @@
   "id": 1998296383,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-13",
+    "date:cessation_upper": "2025-11-13",
     "date:inception_lower": "2025-11-13",
     "date:inception_upper": "2025-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-13",
+    "edtf:cessation": "2025-11-13T11:33:56Z",
+    "edtf:inception": "2025-11-13T07:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2025-11-13",
@@ -48,6 +50,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115714433"
+    },
     "wof:country": "US",
     "wof:created": 1763136110,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,7 +93,7 @@
       1159283849,
       1947304265
     ],
-    "wof:lastmodified": 1763136110,
+    "wof:lastmodified": 1763137086,
     "wof:name": "AA9785 (ORD-SFO)",
     "wof:parent_id": 1947304265,
     "wof:placetype": "custom",
