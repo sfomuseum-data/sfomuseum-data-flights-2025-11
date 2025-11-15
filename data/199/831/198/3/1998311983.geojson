@@ -2,10 +2,12 @@
   "id": 1998311983,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-14",
+    "date:cessation_upper": "2025-11-14",
     "date:inception_lower": "2025-11-14",
     "date:inception_upper": "2025-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-14",
+    "edtf:cessation": "2025-11-14T21:53:53Z",
+    "edtf:inception": "2025-11-14T21:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:base_flight_id": "20251114-D-ACA-4053",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N451UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115853959",
+      "swim:gufi": "KO73597600"
+    },
     "wof:country": "US",
     "wof:created": 1763223336,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998311983,
     "wof:involves": [
+      1947304603,
+      1159283597,
+      1159292085,
       102525535,
       102527513,
-      1159285413,
-      1947304603,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1763223336,
+    "wof:lastmodified": 1763223472,
     "wof:name": "UA1329 (SFO-RNO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

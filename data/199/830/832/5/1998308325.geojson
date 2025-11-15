@@ -2,10 +2,12 @@
   "id": 1998308325,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-14",
+    "date:cessation_upper": "2025-11-14",
     "date:inception_lower": "2025-11-14",
     "date:inception_upper": "2025-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-14",
+    "edtf:cessation": "2025-11-14T01:11:13-08:00",
+    "edtf:inception": "2025-11-14T12:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532255,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N834UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115803178",
+      "swim:gufi": "KI40365600"
+    },
     "wof:country": "US",
     "wof:created": 1763222921,
     "wof:geomhash": "980d68d8d28509c0742a6b2a7abf5f67",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1998308325,
     "wof:involves": [
+      1159289407,
       102527513,
       102532255,
       1159285413,
       1947304603
     ],
-    "wof:lastmodified": 1763222921,
+    "wof:lastmodified": 1763223480,
     "wof:name": "UA684 (CMH-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

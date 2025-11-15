@@ -2,10 +2,12 @@
   "id": 1998310213,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-14",
+    "date:cessation_upper": "2025-11-14",
     "date:inception_lower": "2025-11-14",
     "date:inception_upper": "2025-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-14",
+    "edtf:cessation": "2025-11-14T19:53:23Z",
+    "edtf:inception": "2025-11-14T19:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527529,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115840971",
+      "swim:gufi": "KO68229600"
+    },
     "wof:country": "US",
     "wof:created": 1763223136,
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1998310213,
     "wof:involves": [
+      1528104577,
       102527529,
       102527513,
       1159283813,
       1947304275
     ],
-    "wof:lastmodified": 1763223136,
+    "wof:lastmodified": 1763223462,
     "wof:name": "AS9718 (SFO-SJC)",
     "wof:parent_id": 1947304275,
     "wof:placetype": "custom",

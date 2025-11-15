@@ -2,10 +2,12 @@
   "id": 1998311699,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-15",
+    "date:cessation_upper": "2025-11-15",
     "date:inception_lower": "2025-11-14",
     "date:inception_upper": "2025-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-14",
+    "edtf:cessation": "2025-11-15T01:01:00Z",
+    "edtf:inception": "2025-11-14T21:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 1746879059,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8833L",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115850875",
+      "swim:gufi": "KO70517600"
+    },
     "wof:country": "US",
     "wof:created": 1763223304,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -86,9 +99,10 @@
       1746879059,
       102527513,
       1159285591,
-      1947304599
+      1947304599,
+      1528104575
     ],
-    "wof:lastmodified": 1763223304,
+    "wof:lastmodified": 1763223470,
     "wof:name": "WN2957 (SFO-STL)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",
