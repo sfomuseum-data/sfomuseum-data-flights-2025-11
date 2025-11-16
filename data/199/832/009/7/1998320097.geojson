@@ -2,10 +2,12 @@
   "id": 1998320097,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-16",
+    "date:cessation_upper": "2025-11-16",
     "date:inception_lower": "2025-11-15",
     "date:inception_upper": "2025-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-15",
+    "edtf:cessation": "2025-11-16T10:17:08Z",
+    "edtf:inception": "2025-11-15T13:51:56-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:base_flight_id": "20251115-D-CCA-7312",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N61886",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO16224100"
+    },
     "wof:country": "US",
     "wof:created": 1763309710,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998320097,
     "wof:involves": [
-      102528817,
-      102527513,
       1159285413,
       1947304517,
-      1159283605
+      1159283605,
+      1377564285,
+      102528817,
+      102527513
     ],
-    "wof:lastmodified": 1763309710,
+    "wof:lastmodified": 1763309808,
     "wof:name": "UA2409 (SFO-IAD)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",

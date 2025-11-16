@@ -2,10 +2,12 @@
   "id": 1998316279,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-15",
+    "date:cessation_upper": "2025-11-15",
     "date:inception_lower": "2025-11-15",
     "date:inception_upper": "2025-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-15",
+    "edtf:cessation": "2025-11-15T03:04:03-08:00",
+    "edtf:inception": "2025-11-15T09:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 6.435532500000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251115-A-ANA-7070",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N78004",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115886692",
+      "swim:gufi": "KS62265700"
+    },
     "wof:country": "US",
     "wof:created": 1763309279,
     "wof:geomhash": "a641cfa97e5d709c9877b45a6ec29f09",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998316279,
     "wof:involves": [
+      1159289985,
       102527513,
       102541661,
       1159285413,
       1947304133,
       1159283875
     ],
-    "wof:lastmodified": 1763309279,
+    "wof:lastmodified": 1763309816,
     "wof:name": "UA34 (KIX-SFO)",
     "wof:parent_id": 1947304133,
     "wof:placetype": "custom",

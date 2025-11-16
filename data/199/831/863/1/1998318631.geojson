@@ -2,10 +2,12 @@
   "id": 1998318631,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-15",
-    "date:inception_upper": "2025-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-15",
+    "date:cessation_lower": "2025-11-16",
+    "date:cessation_upper": "2025-11-16",
+    "date:inception_lower": "2025-11-16",
+    "date:inception_upper": "2025-11-16",
+    "edtf:cessation": "2025-11-16T00:52:59Z",
+    "edtf:inception": "2025-11-16T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "CAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20251115-D-CAL-9118",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N776DE",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115867052",
+      "swim:gufi": "KO81961700"
+    },
     "wof:country": "US",
     "wof:created": 1763309545,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304679,
-      1159284153
+      1159284153,
+      1159289871
     ],
-    "wof:lastmodified": 1763309545,
+    "wof:lastmodified": 1763309842,
     "wof:name": "DL2267 (SFO-LAX)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

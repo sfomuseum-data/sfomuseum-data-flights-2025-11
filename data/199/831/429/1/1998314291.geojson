@@ -2,10 +2,12 @@
   "id": 1998314291,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-15",
-    "date:inception_upper": "2025-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-15",
+    "date:cessation_lower": "2025-11-16",
+    "date:cessation_upper": "2025-11-16",
+    "date:inception_lower": "2025-11-16",
+    "date:inception_upper": "2025-11-16",
+    "edtf:cessation": "2025-11-16T04:31:52Z",
+    "edtf:inception": "2025-11-16T04:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-11-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527529,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N962AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO08947100"
+    },
     "wof:country": "US",
     "wof:created": 1763309049,
     "wof:geomhash": "5aa704d308ccde2b747329ebb6ffcf42",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1998314291,
     "wof:involves": [
+      1528104577,
       102527513,
       102527529,
       1159283813,
       1947304297
     ],
-    "wof:lastmodified": 1763309049,
+    "wof:lastmodified": 1763309833,
     "wof:name": "AS9719 (SJC-SFO)",
     "wof:parent_id": 1947304297,
     "wof:placetype": "custom",

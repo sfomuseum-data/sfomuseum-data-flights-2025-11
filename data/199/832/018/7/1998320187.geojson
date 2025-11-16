@@ -2,10 +2,12 @@
   "id": 1998320187,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-16",
+    "date:cessation_upper": "2025-11-16",
     "date:inception_lower": "2025-11-15",
     "date:inception_upper": "2025-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-15",
+    "edtf:cessation": "2025-11-16T15:42:08Z",
+    "edtf:inception": "2025-11-15T13:27:27-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.047534,
     "geom:longitude": -62.966477499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102545773,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2352U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO00414100"
+    },
     "wof:country": "US",
     "wof:created": 1763309720,
     "wof:geomhash": "6af9ffc3b522178d45af0dec8d95c767",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998320187,
     "wof:involves": [
+      1159289993,
       102545773,
       102527513,
       1159285413,
       1947304133
     ],
-    "wof:lastmodified": 1763309720,
+    "wof:lastmodified": 1763309809,
     "wof:name": "UA3900 (SFO-MAD)",
     "wof:parent_id": 1947304133,
     "wof:placetype": "custom",

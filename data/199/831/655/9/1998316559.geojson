@@ -2,10 +2,12 @@
   "id": 1998316559,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-15",
-    "date:inception_upper": "2025-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-15",
+    "date:cessation_lower": "2025-11-15",
+    "date:cessation_upper": "2025-11-15",
+    "date:inception_lower": "2025-11-16",
+    "date:inception_upper": "2025-11-16",
+    "edtf:cessation": "2025-11-15T06:40:26-08:00",
+    "edtf:inception": "2025-11-16T08:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 8.702347499999995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251115-A-ANA-7010",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77014",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO16564100"
+    },
     "wof:country": "US",
     "wof:created": 1763309310,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -92,9 +105,10 @@
       102541591,
       1159285413,
       1947304137,
-      1159283875
+      1159283875,
+      1159289985
     ],
-    "wof:lastmodified": 1763309310,
+    "wof:lastmodified": 1763309817,
     "wof:name": "UA876 (HND-SFO)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

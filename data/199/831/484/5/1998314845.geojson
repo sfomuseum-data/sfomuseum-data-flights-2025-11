@@ -2,10 +2,12 @@
   "id": 1998314845,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-15",
+    "date:cessation_upper": "2025-11-15",
     "date:inception_lower": "2025-11-15",
     "date:inception_upper": "2025-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-15",
+    "edtf:cessation": "2025-11-15T04:02:38-08:00",
+    "edtf:inception": "2025-11-15T18:23:04Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251115-A-VIR-4538",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N315DU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115923055",
+      "swim:gufi": "KU624617P4"
+    },
     "wof:country": "US",
     "wof:created": 1763309114,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -92,9 +105,10 @@
       102527363,
       1159284261,
       1947304677,
-      1159285483
+      1159285483,
+      1813375783
     ],
-    "wof:lastmodified": 1763309114,
+    "wof:lastmodified": 1763309835,
     "wof:name": "DL902 (SLC-SFO)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",
