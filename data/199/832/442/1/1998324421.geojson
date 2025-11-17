@@ -2,10 +2,12 @@
   "id": 1998324421,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-16",
+    "date:cessation_upper": "2025-11-16",
     "date:inception_lower": "2025-11-16",
     "date:inception_upper": "2025-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-16",
+    "edtf:cessation": "2025-11-16T09:41:06-08:00",
+    "edtf:inception": "2025-11-16T21:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-11-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530009,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27511",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "116013736",
+      "swim:gufi": "KH717931sT"
+    },
     "wof:country": "US",
     "wof:created": 1763395729,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1998324421,
     "wof:involves": [
-      102527513,
-      102530009,
       1159285413,
-      1947304519
+      1947304519,
+      1528104577,
+      102527513,
+      102530009
     ],
-    "wof:lastmodified": 1763395729,
+    "wof:lastmodified": 1763396331,
     "wof:name": "UA348 (MSY-SFO)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1998328431,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-16",
-    "date:inception_upper": "2025-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-16",
+    "date:cessation_lower": "2025-11-17",
+    "date:cessation_upper": "2025-11-17",
+    "date:inception_lower": "2025-11-17",
+    "date:inception_upper": "2025-11-17",
+    "edtf:cessation": "2025-11-17T06:10:00Z",
+    "edtf:inception": "2025-11-17T05:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527187,
     "sfomuseum:base_flight_id": "20251116-D-ANZ-9527",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17312",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO15551200"
+    },
     "wof:country": "US",
     "wof:created": 1763396185,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304623,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1763396185,
+    "wof:lastmodified": 1763396335,
     "wof:name": "UA1973 (SFO-MFR)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",

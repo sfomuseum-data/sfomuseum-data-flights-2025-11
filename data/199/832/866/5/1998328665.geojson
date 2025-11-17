@@ -2,10 +2,12 @@
   "id": 1998328665,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-16",
-    "date:inception_upper": "2025-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-16",
+    "date:cessation_lower": "2025-11-17",
+    "date:cessation_upper": "2025-11-17",
+    "date:inception_lower": "2025-11-17",
+    "date:inception_upper": "2025-11-17",
+    "edtf:cessation": "2025-11-17T10:32:00Z",
+    "edtf:inception": "2025-11-17T05:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:base_flight_id": "20251116-D-ANZ-9360",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17322",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115966745",
+      "swim:gufi": "KO15031200"
+    },
     "wof:country": "US",
     "wof:created": 1763396211,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998328665,
     "wof:involves": [
+      1159283697,
+      1528104575,
       102529403,
       102527513,
       1159285413,
-      1947304527,
-      1159283697
+      1947304527
     ],
-    "wof:lastmodified": 1763396211,
+    "wof:lastmodified": 1763396324,
     "wof:name": "UA520 (SFO-PHL)",
     "wof:parent_id": 1947304527,
     "wof:placetype": "custom",

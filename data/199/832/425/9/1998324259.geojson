@@ -2,10 +2,12 @@
   "id": 1998324259,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-16",
+    "date:cessation_upper": "2025-11-16",
     "date:inception_lower": "2025-11-16",
     "date:inception_upper": "2025-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-16",
+    "edtf:cessation": "2025-11-16T03:34:09-08:00",
+    "edtf:inception": "2025-11-16T17:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251116-A-ACA-5189",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17105",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "115994468",
+      "swim:gufi": "KD58577100"
+    },
     "wof:country": "US",
     "wof:created": 1763395710,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1998324259,
     "wof:involves": [
-      102527513,
       102531189,
       1159285413,
       1947304453,
-      1159283597
+      1159283597,
+      1159289939,
+      102527513
     ],
-    "wof:lastmodified": 1763395710,
+    "wof:lastmodified": 1763396308,
     "wof:name": "UA2041 (DEN-SFO)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

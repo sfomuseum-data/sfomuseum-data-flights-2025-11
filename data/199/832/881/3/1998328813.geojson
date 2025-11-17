@@ -2,10 +2,12 @@
   "id": 1998328813,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-16",
+    "date:cessation_upper": "2025-11-16",
     "date:inception_lower": "2025-11-16",
     "date:inception_upper": "2025-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-16",
+    "edtf:cessation": "2025-11-16T20:03:00Z",
+    "edtf:inception": "2025-11-16T18:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20251116-D-ANZ-9405",
@@ -53,6 +57,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "116000010"
+    },
     "wof:country": "US",
     "wof:created": 1763396228,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 1998328813,
     "wof:involves": [
+      1159289869,
       102533269,
       102527513,
       1159285413,
       1947304525,
       1159283697
     ],
-    "wof:lastmodified": 1763396228,
+    "wof:lastmodified": 1763396325,
     "wof:name": "UA684 (SFO-SEA)",
     "wof:parent_id": 1947304525,
     "wof:placetype": "custom",

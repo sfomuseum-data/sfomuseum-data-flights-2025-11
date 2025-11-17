@@ -2,10 +2,12 @@
   "id": 1998327493,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-17",
+    "date:cessation_upper": "2025-11-17",
     "date:inception_lower": "2025-11-16",
     "date:inception_upper": "2025-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-16",
+    "edtf:cessation": "2025-11-17T06:18:09Z",
+    "edtf:inception": "2025-11-16T19:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "JL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 9.012156999999995,
     "iata:airline": "JL",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "JAL",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159284563,
     "sfomuseum:arrival_id": 102541685,
     "sfomuseum:base_flight_id": "20251116-D-AAL-8410",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "JA866J",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "116007517"
+    },
     "wof:country": "US",
     "wof:created": 1763396078,
     "wof:geomhash": "b0708fbc9882ec26729f19c3bf135279",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1998327493,
     "wof:involves": [
+      1947304085,
+      1159283849,
+      1159293215,
       102541685,
       102527513,
-      1159284563,
-      1947304085,
-      1159283849
+      1159284563
     ],
-    "wof:lastmodified": 1763396078,
+    "wof:lastmodified": 1763396319,
     "wof:name": "JL57 (SFO-NRT)",
     "wof:parent_id": 1947304085,
     "wof:placetype": "custom",
