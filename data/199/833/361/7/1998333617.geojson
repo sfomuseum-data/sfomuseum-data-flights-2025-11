@@ -2,10 +2,12 @@
   "id": 1998333617,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-11-17",
-    "date:inception_upper": "2025-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-17",
+    "date:cessation_lower": "2025-11-18",
+    "date:cessation_upper": "2025-11-18",
+    "date:inception_lower": "2025-11-18",
+    "date:inception_upper": "2025-11-18",
+    "edtf:cessation": "2025-11-18T21:17:00Z",
+    "edtf:inception": "2025-11-18T16:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20251117-D-BAW-5605",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N102NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "116075881",
+      "swim:gufi": "KO64274200"
+    },
     "wof:country": "US",
     "wof:created": 1763482222,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1998333617,
     "wof:involves": [
-      102534365,
       102527513,
       1159283849,
       1947304291,
-      1159284021
+      1159284021,
+      1159289411,
+      102534365
     ],
-    "wof:lastmodified": 1763482222,
+    "wof:lastmodified": 1763482723,
     "wof:name": "AA16 (SFO-JFK)",
     "wof:parent_id": 1947304291,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1998336441,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-18",
+    "date:cessation_upper": "2025-11-18",
     "date:inception_lower": "2025-11-17",
     "date:inception_upper": "2025-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-11-17",
+    "edtf:cessation": "2025-11-18T00:44:00Z",
+    "edtf:inception": "2025-11-17T22:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-11-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -48,6 +52,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "116092130",
+      "swim:gufi": "KO69552200"
+    },
     "wof:country": "US",
     "wof:created": 1763482552,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1998336441,
     "wof:involves": [
+      1528104575,
       102531189,
       102527513,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1763482552,
+    "wof:lastmodified": 1763482740,
     "wof:name": "WN4302 (SFO-DEN)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",
