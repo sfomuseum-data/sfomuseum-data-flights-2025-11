@@ -1,0 +1,72 @@
+{
+  "id": 1998362033,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-18",
+    "date:inception_upper": "2025-11-18",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-18",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-11-18",
+    "flysfo:estimated_timestamp": 1763454000,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL2789",
+    "flysfo:gate": "C3",
+    "flysfo:journey": "SFO-MSP",
+    "flysfo:scheduled_timestamp": 1763454600,
+    "flysfo:timestamp": 1763454600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-93.200317,44.883321",
+    "geom:latitude": 41.2506555,
+    "geom:longitude": -107.78563,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102531131,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251118-D-DAL-2789",
+    "sfomuseum:flight_number": [
+      "DAL2789",
+      "DL2789"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1763568766,
+    "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998362033,
+        "flight_id": 1998362033
+      }
+    ],
+    "wof:id": 1998362033,
+    "wof:involves": [
+      102531131,
+      102527513,
+      1159284261,
+      1947304671
+    ],
+    "wof:lastmodified": 1763568766,
+    "wof:name": "DL2789 (SFO-MSP)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -93.200317,
+    44.883321
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-93.200317,44.883321]],"type":"MultiPoint"}
+}
