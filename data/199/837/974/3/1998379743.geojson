@@ -1,0 +1,72 @@
+{
+  "id": 1998379743,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-20",
+    "date:inception_upper": "2025-11-20",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-20",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-11-20",
+    "flysfo:estimated_timestamp": 1763664300,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "WN8505",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-OAK",
+    "flysfo:scheduled_timestamp": 1763660400,
+    "flysfo:timestamp": 1763664300,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-122.212464,37.721310",
+    "geom:latitude": 37.669650000000004,
+    "geom:longitude": -122.2917035,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102531041,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251120-D-SWA-8505",
+    "sfomuseum:flight_number": [
+      "SWA8505",
+      "WN8505"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1763741730,
+    "wof:geomhash": "8933d78fb39ee159acf7eb0738f97ef5",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998379743,
+        "flight_id": 1998379743
+      }
+    ],
+    "wof:id": 1998379743,
+    "wof:involves": [
+      102531041,
+      102527513,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1763741730,
+    "wof:name": "WN8505 (SFO-OAK)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -122.212464,
+    37.72131
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-122.212464,37.72131]],"type":"MultiPoint"}
+}
