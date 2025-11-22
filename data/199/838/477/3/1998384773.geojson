@@ -1,0 +1,72 @@
+{
+  "id": 1998384773,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-21",
+    "date:inception_upper": "2025-11-21",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-21",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-11-21",
+    "flysfo:estimated_timestamp": 1763773140,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3929",
+    "flysfo:gate": "",
+    "flysfo:journey": "DEN-SFO",
+    "flysfo:scheduled_timestamp": 1763775240,
+    "flysfo:timestamp": 1763775240,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-104.672219,39.864939",
+    "geom:latitude": 38.7414645,
+    "geom:longitude": -113.521581,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102531189,
+    "sfomuseum:flight_id": "20251121-A-UAL-3929",
+    "sfomuseum:flight_number": [
+      "UAL3929",
+      "UA3929"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1763827749,
+    "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998384773,
+        "flight_id": 1998384773
+      }
+    ],
+    "wof:id": 1998384773,
+    "wof:involves": [
+      102527513,
+      102531189,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1763827749,
+    "wof:name": "UA3929 (DEN-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -104.672219,
+    39.864939
+  ],
+  "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

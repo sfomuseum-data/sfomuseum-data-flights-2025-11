@@ -1,0 +1,72 @@
+{
+  "id": 1998388083,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-21",
+    "date:inception_upper": "2025-11-21",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-21",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "MX",
+    "flysfo:date": "2025-11-21",
+    "flysfo:estimated_timestamp": 1763745600,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "MX9239",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-PVU",
+    "flysfo:scheduled_timestamp": 1763744400,
+    "flysfo:timestamp": 1763745600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-111.722380,40.219724",
+    "geom:latitude": 38.918857,
+    "geom:longitude": -117.0466615,
+    "iata:airline": "MX",
+    "icao:airline": "MXY",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1763552131,
+    "sfomuseum:arrival_id": 102532277,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251121-D-MXY-9239",
+    "sfomuseum:flight_number": [
+      "MXY9239",
+      "MX9239"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1763828127,
+    "wof:geomhash": "855a08f9b6f780333367899da8373a5a",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998388083,
+        "flight_id": 1998388083
+      }
+    ],
+    "wof:id": 1998388083,
+    "wof:involves": [
+      102532277,
+      102527513,
+      1763552131,
+      -1
+    ],
+    "wof:lastmodified": 1763828127,
+    "wof:name": "MX9239 (SFO-PVU)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -111.72238,
+    40.219724
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-111.72238,40.219724]],"type":"MultiPoint"}
+}
