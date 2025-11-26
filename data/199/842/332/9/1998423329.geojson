@@ -1,0 +1,72 @@
+{
+  "id": 1998423329,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-25",
+    "date:inception_upper": "2025-11-25",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-25",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-11-25",
+    "flysfo:estimated_timestamp": 1764096000,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA8155",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-ABQ",
+    "flysfo:scheduled_timestamp": 1764096000,
+    "flysfo:timestamp": 1764096000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,35.048762,-106.620586,37.617990",
+    "geom:latitude": 36.333376,
+    "geom:longitude": -114.4957645,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102529173,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251125-D-UAL-8155",
+    "sfomuseum:flight_number": [
+      "UAL8155",
+      "UA8155"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1764173802,
+    "wof:geomhash": "029159a11f35cb7f92e728b838da58ba",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998423329,
+        "flight_id": 1998423329
+      }
+    ],
+    "wof:id": 1998423329,
+    "wof:involves": [
+      102529173,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1764173802,
+    "wof:name": "UA8155 (SFO-ABQ)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    35.048762,
+    -106.620586,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-106.620586,35.048762]],"type":"MultiPoint"}
+}
