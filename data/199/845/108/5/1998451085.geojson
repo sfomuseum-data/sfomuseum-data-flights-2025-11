@@ -1,0 +1,72 @@
+{
+  "id": 1998451085,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-29",
+    "date:inception_upper": "2025-11-29",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-29",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AA",
+    "flysfo:date": "2025-11-29",
+    "flysfo:estimated_timestamp": 1764405900,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AA294",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-CLT",
+    "flysfo:scheduled_timestamp": 1764405900,
+    "flysfo:timestamp": 1764405900,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,35.220744,-80.942777,37.617990",
+    "geom:latitude": 36.419367,
+    "geom:longitude": -101.65686,
+    "iata:airline": "AA",
+    "icao:airline": "AAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283849,
+    "sfomuseum:arrival_id": 102528659,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251129-D-AAL-294",
+    "sfomuseum:flight_number": [
+      "AAL294",
+      "AA294"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1764519023,
+    "wof:geomhash": "6d7202e034534315a50103622977ef57",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998451085,
+        "flight_id": 1998451085
+      }
+    ],
+    "wof:id": 1998451085,
+    "wof:involves": [
+      102528659,
+      102527513,
+      1159283849,
+      -1
+    ],
+    "wof:lastmodified": 1764519023,
+    "wof:name": "AA294 (SFO-CLT)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    35.220744,
+    -80.942777,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-80.942777,35.220744]],"type":"MultiPoint"}
+}

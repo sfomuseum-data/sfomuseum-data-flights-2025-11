@@ -1,0 +1,72 @@
+{
+  "id": 1998449715,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-29",
+    "date:inception_upper": "2025-11-29",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-29",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-11-29",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN197",
+    "flysfo:gate": "",
+    "flysfo:journey": "MDW-SFO",
+    "flysfo:scheduled_timestamp": 1764468000,
+    "flysfo:timestamp": 1764468000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.745903,41.787532",
+    "geom:latitude": 39.702760999999995,
+    "geom:longitude": -105.058423,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102531205,
+    "sfomuseum:flight_id": "20251129-A-SWA-197",
+    "sfomuseum:flight_number": [
+      "SWA197",
+      "WN197"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1764518869,
+    "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998449715,
+        "flight_id": 1998449715
+      }
+    ],
+    "wof:id": 1998449715,
+    "wof:involves": [
+      102527513,
+      102531205,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1764518869,
+    "wof:name": "WN197 (MDW-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.745903,
+    41.787532
+  ],
+  "geometry": {"coordinates":[[-87.745903,41.787532],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
