@@ -1,0 +1,72 @@
+{
+  "id": 1998458375,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-30",
+    "date:inception_upper": "2025-11-30",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-30",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-11-30",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN1727",
+    "flysfo:gate": "",
+    "flysfo:journey": "RSW-SFO",
+    "flysfo:scheduled_timestamp": 1764547200,
+    "flysfo:timestamp": 1764547200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,26.532945,-81.765412,37.617990",
+    "geom:latitude": 32.0754675,
+    "geom:longitude": -102.06817749999999,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102533509,
+    "sfomuseum:flight_id": "20251130-A-SWA-1727",
+    "sfomuseum:flight_number": [
+      "SWA1727",
+      "WN1727"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1764605299,
+    "wof:geomhash": "155104f8406f893c2c24589be7b12de9",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998458375,
+        "flight_id": 1998458375
+      }
+    ],
+    "wof:id": 1998458375,
+    "wof:involves": [
+      102527513,
+      102533509,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1764605299,
+    "wof:name": "WN1727 (RSW-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    26.532945,
+    -81.765412,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-81.765412,26.532945],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

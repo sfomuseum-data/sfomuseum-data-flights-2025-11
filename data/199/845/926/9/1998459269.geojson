@@ -1,0 +1,72 @@
+{
+  "id": 1998459269,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-30",
+    "date:inception_upper": "2025-11-30",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-30",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-11-30",
+    "flysfo:estimated_timestamp": 1764575460,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA8165",
+    "flysfo:gate": "",
+    "flysfo:journey": "MCO-SFO",
+    "flysfo:scheduled_timestamp": 1764575220,
+    "flysfo:timestamp": 1764575460,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,28.431495,-81.307537,37.617990",
+    "geom:latitude": 33.0247425,
+    "geom:longitude": -101.83923999999999,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102533657,
+    "sfomuseum:flight_id": "20251130-A-UAL-8165",
+    "sfomuseum:flight_number": [
+      "UAL8165",
+      "UA8165"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1764605402,
+    "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998459269,
+        "flight_id": 1998459269
+      }
+    ],
+    "wof:id": 1998459269,
+    "wof:involves": [
+      102527513,
+      102533657,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1764605402,
+    "wof:name": "UA8165 (MCO-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    28.431495,
+    -81.307537,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-81.307537,28.431495],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

@@ -1,0 +1,72 @@
+{
+  "id": 1998463609,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-11-30",
+    "date:inception_upper": "2025-11-30",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-11-30",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-11-30",
+    "flysfo:estimated_timestamp": 1764570900,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA8115",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-DEN",
+    "flysfo:scheduled_timestamp": 1764570900,
+    "flysfo:timestamp": 1764570900,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-104.672219,39.864939",
+    "geom:latitude": 38.7414645,
+    "geom:longitude": -113.521581,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102531189,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251130-D-UAL-8115",
+    "sfomuseum:flight_number": [
+      "UAL8115",
+      "UA8115"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1764605890,
+    "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1998463609,
+        "flight_id": 1998463609
+      }
+    ],
+    "wof:id": 1998463609,
+    "wof:involves": [
+      102531189,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1764605890,
+    "wof:name": "UA8115 (SFO-DEN)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -104.672219,
+    39.864939
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-104.672219,39.864939]],"type":"MultiPoint"}
+}
